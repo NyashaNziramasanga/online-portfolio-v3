@@ -1,3 +1,13 @@
-# portfolio-v3
+<div align="center">
+    <h1> Online Portfolio v3 </h1>
+    <p>
+      <i>Personal portfolio</i>
+    </p>
+</div>
 
-Personal portfolio
+## 🏁 Getting Started
+
+## 🏗️ Built With
+
+- [Tailwind-css](https://tailwindcss.com/)
+- [Tailblocks](https://mertjf.github.io/tailblocks/)
