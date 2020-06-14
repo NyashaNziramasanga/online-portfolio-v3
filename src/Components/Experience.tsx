@@ -1,5 +1,6 @@
 import React from 'react';
 import Heading from '../UI/Heading';
+import Paragraph from '../UI/Paragraph';
 
 export const Experience = () => {
   return (
@@ -23,13 +24,14 @@ export const Experience = () => {
                 Platformers <br />
                 <div className='text-blue-500'>Junior Software Developer</div>
               </h2>
-              <p className='leading-relaxed'>
-                As a Software Developer, at Platformers, I am a member of the
+
+              <Paragraph
+                content={` As a Software Developer, at Platformers, I am a member of the
                 Billow Software development team of 4 developers that managed
                 and support multiple client databases primarily in the
                 construction industry. Developing and implementing custom web
-                applications solutions for the Upvise.js Framework.
-              </p>
+                applications solutions for the Upvise.js Framework.`}
+              />
             </div>
           </div>
           <div className='py-8 flex border-t-2 border-gray-200 flex-wrap md:flex-no-wrap'>
@@ -44,12 +46,12 @@ export const Experience = () => {
                 <br />
                 <div className='text-blue-500'>Intern Web Developer</div>
               </h2>
-              <p className='leading-relaxed'>
-                As a Web Developer at Carbar Auto, I was a member of the
+              <Paragraph
+                content={`As a Web Developer at Carbar Auto, I was a member of the
                 development team that constructed both customer-facing and
                 administrative sites for managing the sales and subscriptions of
-                Carbar vehicles.
-              </p>
+                Carbar vehicles.`}
+              />
             </div>
           </div>
         </div>

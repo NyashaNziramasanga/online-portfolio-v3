@@ -5,5 +5,5 @@ interface IProps {
 }
 
 export default function Paragraph(IProps: IProps) {
-  return <p className='mb-8 leading-relaxed'>{IProps.content}</p>;
+  return <p className='mb-4 leading-relaxed'>{IProps.content}</p>;
 }

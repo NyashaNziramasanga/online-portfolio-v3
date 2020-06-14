@@ -22,7 +22,7 @@ export const About = () => {
           </div>
           <div className='lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center'>
             <Paragraph
-              content={` I enjoy developing and maintaining fullstack software
+              content={`I enjoy developing and maintaining fullstack software
               applications, and feel right at home as a Software Developer. I am
               experienced in developing and designing products for the web.`}
             />
