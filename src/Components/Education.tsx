@@ -7,7 +7,10 @@ export const Education = () => {
         EDUCATION
       </h1>
       <h2 className='sm:text-3xl text-2xl text-center text-gray-500'>
-        Qualifications and Tertiary Studies 🧑🏿‍🎓
+        Qualifications and Tertiary Studies
+        <span role='img' aria-label='Student: Dark Skin Tone'>
+          🧑🏿‍🎓
+        </span>
       </h2>
       <div className='container px-6 py-24 mx-auto flex flex-wrap'>
         <div className='flex relative pt-10 pb-20 sm:items-center md:w-5/6 mx-auto'>

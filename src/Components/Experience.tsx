@@ -7,7 +7,10 @@ export const Experience = () => {
         EXPERIENCE
       </h1>
       <h2 className='sm:text-3xl text-2xl text-center text-gray-500'>
-        Places I've worked at 🏢
+        Places I've worked at
+        <span role='img' aria-label='Office'>
+          🏢
+        </span>
       </h2>
       <div className='container px-6 py-24 mx-auto'>
         <div className='-my-8'>

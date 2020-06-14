@@ -8,7 +8,10 @@ export const About = () => {
         ABOUT
       </h1>
       <h2 className='sm:text-3xl text-2xl text-center text-gray-500'>
-        Coding is life 👨‍💻
+        Coding is life
+        <span role='img' aria-label='Man Technologist'>
+          👨‍💻
+        </span>
       </h2>
       <div className='container mx-auto flex px-6 py-24 md:flex-row flex-col items-center'>
         <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10'>
