@@ -20,6 +20,17 @@ export default function Heading(IProps: IProps) {
           </h2>
         </div>
       );
+    case 'white':
+      return (
+        <div>
+          <h1 className='sm:text-3xl text-2xl font-medium title-font text-center text-gray-900'>
+            {IProps.h1}
+          </h1>
+          <h2 className='font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left'>
+            {IProps.h2} <span role='img'>{IProps.gif}</span>
+          </h2>
+        </div>
+      );
     default:
       return (
         <div>
