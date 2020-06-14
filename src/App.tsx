@@ -1,22 +1,23 @@
 import React from 'react';
 import './App.css';
+import { Header } from './Components/Header';
+import { Hero } from './Components/Hero';
+import { About } from './Components/About';
+import { Experience } from './Components/Experience';
+import { Portfolio } from './Components/Portfolio';
+import { Education } from './Components/Education';
+import { Footer } from './Components/Footer';
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Hero />
+      <About />
+      <Experience />
+      <Portfolio />
+      <Education />
+      <Footer />
     </div>
   );
 }
