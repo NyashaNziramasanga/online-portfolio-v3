@@ -5,6 +5,8 @@
     </p>
 </div>
 
+[![time tracker](https://wakatime.com/badge/github/NyashaNziramasanga/online-portfolio-v3.svg)](https://wakatime.com/badge/github/NyashaNziramasanga/online-portfolio-v3)
+
 ## 🏁 Getting Started
 
 ```bash
