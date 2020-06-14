@@ -1,17 +1,15 @@
 import React from 'react';
+import Heading from '../UI/Heading';
 
 export const Experience = () => {
   return (
     <section className='text-gray-900 body-font overflow-hidden'>
-      <h1 className='sm:text-3xl text-2xl font-medium title-font text-center text-gray-900'>
-        EXPERIENCE
-      </h1>
-      <h2 className='sm:text-3xl text-2xl text-center text-gray-500'>
-        Places I've worked at
-        <span role='img' aria-label='Office'>
-          🏢
-        </span>
-      </h2>
+      <Heading
+        type={'dark'}
+        h1={'EXPERIENCE'}
+        h2={`Places I've worked at`}
+        gif={'🏢'}
+      />
       <div className='container px-6 py-24 mx-auto'>
         <div className='-my-8'>
           <div className='py-8 flex flex-wrap md:flex-no-wrap'>

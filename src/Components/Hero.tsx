@@ -16,15 +16,10 @@ export const Hero = () => {
             Also known as Nash and I'm a Software Developer based in Adelaide,
             Australia developing web applications using JavaScript frameworks.
           </h2>
+
           <div className='flex justify-center'>
-            {/* <button className='inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg'>
-              GET IN TOUCH
-            </button> */}
             <Button name={'GET IN TOUCH'} type={'blue'} />
             <Button name={' RESUME'} />
-            {/* <button className='ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg'>
-              RESUME
-            </button> */}
           </div>
         </div>
         <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6'>

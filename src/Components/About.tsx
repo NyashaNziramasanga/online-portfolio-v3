@@ -2,21 +2,14 @@ import React, { Fragment } from 'react';
 import nash from '../assets/images/nash.jpg';
 import upperWave from '../assets/icons/background/upper-wave-1.svg';
 import lowerWave from '../assets/icons/background/lower-wave-1.svg';
+import Heading from '../UI/Heading';
 
 export const About = () => {
   return (
     <Fragment>
       <img src={upperWave} alt='' />
       <section className='text-gray-500 bg-gray-900 body-font relative'>
-        <h1 className='sm:text-4xl text-6xl font-medium title-font text-center text-white'>
-          ABOUT
-        </h1>
-        <h2 className='sm:text-3xl text-2xl text-center text-gray-500'>
-          Coding is life
-          <span role='img' aria-label='Man Technologist'>
-            👨‍💻
-          </span>
-        </h2>
+        <Heading h1={'ABOUT'} h2={'Coding is life'} gif={'👨‍💻'} />
         <div className='container mx-auto flex px-6 py-24 md:flex-row flex-col items-center'>
           <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10'>
             <img
