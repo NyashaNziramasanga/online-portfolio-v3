@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../UI/Logo';
 import Button from '../UI/Button';
-import { Link } from 'react-scroll';
+import HeaderLink from '../UI/HeaderLink';
 
 export const Header = () => {
   return (
@@ -21,26 +21,3 @@ export const Header = () => {
     </div>
   );
 };
-
-interface IHeaderLink {
-  to: string;
-  name: string;
-}
-
-export default function HeaderLink(IHeaderLink: IHeaderLink) {
-  return (
-    <div>
-      <Link
-        activeClass='active'
-        className='mr-5 hover:text-white'
-        to={IHeaderLink.to}
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-      >
-        {IHeaderLink.name}
-      </Link>
-    </div>
-  );
-}
