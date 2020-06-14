@@ -6,6 +6,7 @@ interface IEducation {
   period?: string;
   faculty?: string;
   degree?: string;
+  uniLogo?: string;
 }
 
 export default function EducationCard(IEducation: IEducation) {
@@ -18,7 +19,13 @@ export default function EducationCard(IEducation: IEducation) {
         {IEducation.period}
       </div>
       <div className='flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row'>
-        <div className='flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center'></div>
+        <div className='flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center'>
+          <img
+            src={IEducation.uniLogo}
+            className='object-cover object-center rounded-full'
+            alt='uni-logo'
+          />
+        </div>
         <div className='flex-grow sm:pl-6 mt-6 sm:mt-0'>
           <h2 className='font-medium title-font text-gray-900 mb-1 text-xl'>
             {IEducation.name}, {IEducation.city}

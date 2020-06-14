@@ -1,6 +1,8 @@
 import React from 'react';
 import Heading from '../UI/Heading';
 import EducationCard from '../UI/EducationCard';
+import MonashLogo from '../assets/images/monash-logo.jpg';
+import FlindersLogo from '../assets/images/flinders-logo.png';
 
 export const Education = () => {
   return (
@@ -18,6 +20,7 @@ export const Education = () => {
           degree={'Master of Science, Computer Science'}
           faculty={'College of Science andEngineering'}
           period={'Feb 2020 - Current'}
+          uniLogo={FlindersLogo}
         />
         <EducationCard
           name={'Monash University'}
@@ -25,6 +28,7 @@ export const Education = () => {
           degree={'Bachelor’s Degree, Information Technology and Systems'}
           faculty={'Faculty of Information Technology (FIT)'}
           period={'July 2014 - Feb 2018'}
+          uniLogo={MonashLogo}
         />
       </div>
     </section>
