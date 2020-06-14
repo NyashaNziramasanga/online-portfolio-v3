@@ -28,6 +28,7 @@ $ npm build
 $ npm test
 
 $ npm eject
+```
 
 ## 🏗️ Built With
 
