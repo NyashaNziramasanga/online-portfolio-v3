@@ -1,26 +1,12 @@
 import React from 'react';
+import logo from '../assets/icons/logo.svg';
 
 export const Footer = () => {
   return (
     <footer className='text-gray-500 bg-gray-900 body-font'>
       <div className='container px-6 py-8 mx-auto flex items-center sm:flex-row flex-col'>
         <a className='flex title-font font-medium items-center md:justify-start justify-center text-white'>
-          {/* <svg
-            id='Layer_1'
-            width='40'
-            height='40'
-            data-name='Layer 1'
-            xmlns='http://www.w3.org/2000/svg'
-            viewBox='0 0 24 25.06'
-          >
-            <circle cx='12' cy='12' r='12' style='fill:#4b98d3' />
-            <text
-              transform='translate(5.48 18.96)'
-              style='font-size:20.424898147583008px;fill:#4b98d3;stroke:#fff;stroke-miterlimit:10;font-family:Phosphate-Solid, Phosphate'
-            >
-              N
-            </text>
-          </svg> */}
+          <img src={logo} alt='' />
           <span className='ml-3 text-xl'>NASH | SOFTWARE DEVELOPER</span>
         </a>
         <p className='text-sm text-gray-600 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4'>
