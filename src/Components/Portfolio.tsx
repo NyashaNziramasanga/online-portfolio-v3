@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import lowerWave from '../assets/icons/background/lower-wave-2.svg';
 import upperWave from '../assets/icons/background/upper-wave-2.svg';
 import Heading from '../UI/Heading';
-import Card from '../UI/Card';
+import Card from '../UI/PortfolioCard';
 
 export const Portfolio = () => {
   return (
@@ -10,6 +10,7 @@ export const Portfolio = () => {
       <img src={upperWave} alt='' />
       <section className='text-gray-400 bg-gray-900 body-font'>
         <Heading h1={'PORTFOLIO'} h2={`Projects I've worked on`} gif={'🖥️'} />
+
         <div className='container px-5 py-24 mx-auto'>
           <Card
             name={'GitHub User Finder'}
