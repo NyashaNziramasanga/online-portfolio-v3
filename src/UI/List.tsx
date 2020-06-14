@@ -6,7 +6,7 @@ interface IList {
 
 export default function List(IList: IList) {
   return (
-    <a className='mb-2'>
+    <a className='mr-3'>
       <span className='bg-gray-800 text-blue-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center'>
         <svg
           fill='none'

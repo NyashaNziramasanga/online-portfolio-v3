@@ -26,7 +26,7 @@ export default function Heading(IHeading: IHeading) {
           <h1 className='sm:text-3xl text-2xl font-medium title-font text-center text-gray-900'>
             {IHeading.h1}
           </h1>
-          <h2 className='font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left'>
+          <h2 className='font-medium title-font tracking-widest text-white my-4 text-sm text-center sm:text-left'>
             {IHeading.h2} <span role='img'>{IHeading.gif}</span>
           </h2>
         </div>

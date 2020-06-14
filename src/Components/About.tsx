@@ -30,8 +30,27 @@ export const About = () => {
               content={`I'm currently studying a Masters of Computer Science at Flinders
               University Adelaide which I will complete in Dec 2021.`}
             />
-            <Heading type={'white'} h2={'SKILLS'} />
-            <List item={'TypeScript'} />
+            <Heading type={'white'} h2={'SKILLS:'} />
+            <div className='items-stretch'>
+              <Heading type={'white'} h2={'Programing Languages'} />
+              <List item={'TypeScript'} />
+              <List item={'JavaScript'} />
+              <List item={'Java'} />
+              <List item={'Sass'} />
+
+              <Heading type={'white'} h2={'Libraries & Frameworks'} />
+              <List item={'React'} />
+              <List item={'Node'} />
+              <List item={'MongoDB'} />
+              <List item={'Express'} />
+
+              <Heading type={'white'} h2={'Tools'} />
+              <List item={'Git'} />
+              <List item={'Microsoft Azure'} />
+              <List item={'WordPress'} />
+              <List item={'Postman'} />
+              <List item={'Adobe Creative Cloud'} />
+            </div>
           </div>
         </div>
       </section>

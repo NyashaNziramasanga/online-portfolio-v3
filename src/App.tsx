@@ -8,7 +8,7 @@ import { Portfolio } from './Components/Portfolio';
 import { Education } from './Components/Education';
 import { Footer } from './Components/Footer';
 
-export const App = () => {
+export function App() {
   return (
     <div className='App'>
       <Header />
@@ -20,6 +20,6 @@ export const App = () => {
       <Footer />
     </div>
   );
-};
+}
 
 export default App;
