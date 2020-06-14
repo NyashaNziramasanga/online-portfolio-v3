@@ -16,7 +16,7 @@ export const Experience = () => {
           <div className='py-8 flex flex-wrap md:flex-no-wrap'>
             <div className='md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col'>
               <span className='mt-1 text-gray-500 text-sm'>
-                FEB 2019 - FEB 2020
+                Feb 2019 - Feb 2020
               </span>
             </div>
             <div className='md:flex-grow'>
@@ -37,7 +37,7 @@ export const Experience = () => {
           <div className='py-8 flex border-t-2 border-gray-200 flex-wrap md:flex-no-wrap'>
             <div className='md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col'>
               <span className='mt-1 text-gray-500 text-sm'>
-                OCT 2018 - JAN 2019
+                Oct 2018 - Jan 2019
               </span>
             </div>
             <div className='md:flex-grow'>
