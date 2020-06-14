@@ -6,6 +6,7 @@
 </div>
 
 [![time tracker](https://wakatime.com/badge/github/NyashaNziramasanga/online-portfolio-v3.svg)](https://wakatime.com/badge/github/NyashaNziramasanga/online-portfolio-v3)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c54bf0ca-8555-428c-897e-a49189ecbca7/deploy-status)](https://app.netlify.com/sites/dev-nash/deploys)
 
 ## 🏁 Getting Started
 
