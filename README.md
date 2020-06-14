@@ -37,4 +37,4 @@ $ npm eject
 - [React JS](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Sass](https://sass-lang.com/)
-```
+- [Netlify](https://www.netlify.com/)
