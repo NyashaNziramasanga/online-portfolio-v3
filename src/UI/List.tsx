@@ -1,10 +1,10 @@
 import React from 'react';
 
-interface IProps {
+interface IList {
   item: string;
 }
 
-export default function List(IProps: IProps) {
+export default function List(IList: IList) {
   return (
     <a className='mb-2'>
       <span className='bg-gray-800 text-blue-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center'>
@@ -20,7 +20,7 @@ export default function List(IProps: IProps) {
           <path d='M20 6L9 17l-5-5'></path>
         </svg>{' '}
       </span>
-      {IProps.item}
+      {IList.item}
     </a>
   );
 }
