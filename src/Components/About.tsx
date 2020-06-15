@@ -18,7 +18,10 @@ export const About = () => {
           animation={'fade-up'}
         />
         <div className='container mx-auto flex px-6 py-24 md:flex-row flex-col items-center'>
-          <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10'>
+          <div
+            data-aos='fade-right'
+            className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10'
+          >
             <img
               className='object-cover object-center rounded-full'
               alt='hero'

@@ -14,7 +14,10 @@ export const Education = () => {
         gif={'🧑🏿‍🎓'}
         animation={'fade-up'}
       />
-      <div className='container px-6 py-24 mx-auto flex flex-wrap'>
+      <div
+        data-aos='fade-right'
+        className='container px-6 py-24 mx-auto flex flex-wrap'
+      >
         <EducationCard
           name={'Flinders University'}
           city={'Adelaide'}
