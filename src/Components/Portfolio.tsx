@@ -9,7 +9,12 @@ export const Portfolio = () => {
     <Fragment>
       <img src={upperWave} alt='' />
       <section className='text-gray-400 bg-gray-900 body-font'>
-        <Heading h1={'PORTFOLIO'} h2={`Projects I've worked on`} gif={'🖥️'} />
+        <Heading
+          h1={'PORTFOLIO'}
+          h2={`Projects I've worked on`}
+          gif={'🖥️'}
+          animation={'fade-up'}
+        />
 
         <div className='container px-5 py-24 mx-auto'>
           <Card

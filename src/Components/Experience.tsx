@@ -10,6 +10,7 @@ export const Experience = () => {
         h1={'EXPERIENCE'}
         h2={`Places I've worked at`}
         gif={'🏢'}
+        animation={'fade-up'}
       />
       <div className='container px-6 py-24 mx-auto'>
         <div className='-my-8'>

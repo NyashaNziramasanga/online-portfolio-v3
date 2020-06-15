@@ -5,13 +5,14 @@ interface IHeading {
   h1?: string;
   h2?: string;
   gif?: string;
+  animation?: string;
 }
 
 export default function Heading(IHeading: IHeading) {
   switch (IHeading.type) {
     case 'dark':
       return (
-        <div id={IHeading.h1}>
+        <div id={IHeading.h1} data-aos={IHeading.animation}>
           <h1 className='sm:text-3xl text-2xl font-medium title-font text-center text-gray-900'>
             {IHeading.h1}
           </h1>
@@ -22,7 +23,7 @@ export default function Heading(IHeading: IHeading) {
       );
     case 'white':
       return (
-        <div id={IHeading.h1}>
+        <div id={IHeading.h1} data-aos={IHeading.animation}>
           <h1 className='sm:text-3xl text-2xl font-medium title-font text-center text-gray-900'>
             {IHeading.h1}
           </h1>
@@ -33,7 +34,7 @@ export default function Heading(IHeading: IHeading) {
       );
     default:
       return (
-        <div id={IHeading.h1}>
+        <div id={IHeading.h1} data-aos={IHeading.animation}>
           <h1 className='sm:text-4xl text-6xl font-medium title-font text-center text-white'>
             {IHeading.h1}
           </h1>

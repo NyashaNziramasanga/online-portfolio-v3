@@ -12,6 +12,7 @@ export const Education = () => {
         h1={'EDUCATION'}
         h2={'Qualifications and Tertiary Studies'}
         gif={'🧑🏿‍🎓'}
+        animation={'fade-up'}
       />
       <div className='container px-6 py-24 mx-auto flex flex-wrap'>
         <EducationCard
