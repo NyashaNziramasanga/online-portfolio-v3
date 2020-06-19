@@ -14,6 +14,7 @@ export const Footer = () => {
           twitterUrl={'https://twitter.com/NyashaNziboi'}
         />
         <SocialIcons
+          githubURL={'https://github.com/NyashaNziramasanga'}
           linkedInURL={
             'https://www.linkedin.com/in/nyasha-nash-nziramasanga-446380116/'
           }

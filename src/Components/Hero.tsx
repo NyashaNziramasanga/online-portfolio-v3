@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../UI/Button';
 import Dev from '../assets/icons/Dev.svg';
+import SocialIcons from '../UI/SocialIcons';
 
 export const Hero = () => {
   return (
@@ -20,7 +21,17 @@ export const Hero = () => {
 
           <div className='flex justify-center'>
             <Button name={'GET IN TOUCH'} type={'blue'} />
-            <Button name={' RESUME'} />
+            <Button name={'RESUME'} />
+          </div>
+          <div className='flex justify-center my-8'>
+            <SocialIcons
+              githubURL={'https://github.com/NyashaNziramasanga'}
+              linkedInURL={
+                'https://www.linkedin.com/in/nyasha-nash-nziramasanga-446380116/'
+              }
+              twitterURL={'https://twitter.com/NyashaNziboi'}
+              facebookURL={'https://www.facebook.com/Nyasha.Nziboi'}
+            />
           </div>
         </div>
         <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6'>
