@@ -15,7 +15,7 @@ export const Header = () => {
             <HeaderLink to={'PORTFOLIO'} name={'Portfolio'} />
             <HeaderLink to={'EDUCATION'} name={'Education'} />
           </nav>
-          <Button name={'Contact'} type={'dark'} />
+          <Button name={'Login'} type={'dark'} action={'#'} />
         </div>
       </header>
     </div>

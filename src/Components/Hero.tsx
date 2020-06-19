@@ -20,8 +20,16 @@ export const Hero = () => {
           </h2>
 
           <div className='flex justify-center'>
-            <Button name={'GET IN TOUCH'} type={'blue'} />
-            <Button name={'RESUME'} />
+            <Button
+              name={'GET IN TOUCH'}
+              type={'blue'}
+              action={'mailto:nyashanziramasanga@ymail.com'}
+            />
+            <Button
+              name={'RESUME'}
+              action={'/files/resume-of-nyasha-nziramasanga.pdf'}
+              download={'resume-of-nyasha-nash-nziramasanga'}
+            />
           </div>
           <div className='flex justify-center my-8'>
             <SocialIcons
