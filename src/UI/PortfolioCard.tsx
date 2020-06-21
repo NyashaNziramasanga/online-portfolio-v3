@@ -4,6 +4,8 @@ interface IPortfolio {
   name: string;
   desc: string;
   tech?: string;
+  githubURL?: string;
+  webURL?: string;
 }
 
 export default function Card(IPortfolio: IPortfolio) {
@@ -13,6 +15,20 @@ export default function Card(IPortfolio: IPortfolio) {
         {/* Portfolio image*/}
       </div>
       <div className='flex-grow sm:text-left text-center mt-6 sm:mt-0'>
+        <div className='float-right'>
+          {IPortfolio.githubURL && (
+            <a href={IPortfolio.githubURL} className='pr-2'>
+              <i className='fab fa-github pr-1' aria-hidden='true'></i>
+              Github
+            </a>
+          )}
+          {IPortfolio.webURL && (
+            <a href={IPortfolio.webURL} className='pr-2'>
+              <i className='fas fa-globe pr-1' aria-hidden='true'></i>
+              Web
+            </a>
+          )}
+        </div>
         <h2 className='text-white text-lg title-font font-medium mb-2'>
           {IPortfolio.name}
         </h2>

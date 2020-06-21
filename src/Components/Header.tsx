@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../UI/Logo';
-import Button from '../UI/Button';
+// import Button from '../UI/Button';
 import HeaderLink from '../UI/HeaderLink';
 
 export const Header = () => {
@@ -15,7 +15,7 @@ export const Header = () => {
             <HeaderLink to={'PORTFOLIO'} name={'Portfolio'} />
             <HeaderLink to={'EDUCATION'} name={'Education'} />
           </nav>
-          <Button name={'Login'} type={'dark'} action={'#'} />
+          {/* <Button name={'Login'} type={'dark'} action={'#'} /> */}
         </div>
       </header>
     </div>

@@ -12,7 +12,7 @@ export const Experience = () => {
         gif={'🏢'}
         animation={'fade-up'}
       />
-      <div className='container px-6 py-24 mx-auto'>
+      <div className='container px-6 py-24 mx-auto' data-aos='fade-in'>
         <div className='-my-8'>
           <div className='py-8 flex flex-wrap md:flex-no-wrap'>
             <div className='md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col'>
