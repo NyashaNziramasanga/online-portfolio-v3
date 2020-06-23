@@ -7,7 +7,7 @@ export const Hero = () => {
   return (
     <section data-aos='fade-in' className='text-gray-700 body-font'>
       <div className='container mx-auto flex px-6 py-24 md:flex-row flex-col items-center'>
-        <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
+        <div className='lg:flex-grow md:w-1/2 lg:px-24 md:px-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
           <h1 className='title-font sm:text-5xl text-4xl mb-4 font-medium text-gray-900'>
             Hi, I'm Nyasha
             <span role='img' aria-label='Waving Hand: Dark Skin Tone'>
