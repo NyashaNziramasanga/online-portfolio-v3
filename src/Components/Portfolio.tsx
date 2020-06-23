@@ -55,6 +55,13 @@ export const Portfolio = () => {
             }
             gif={mongoDdDemoGif}
           />
+          <a
+            href='https://github.com/NyashaNziramasanga'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <p className='mt-3 text-blue-500 text-center'>More on Github...</p>
+          </a>
         </div>
       </section>
       <img src={lowerWave} alt='' />
