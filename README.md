@@ -1,5 +1,7 @@
 <div align="center">
-    <h1> Online Portfolio v3 </h1>
+    <h1> 
+    🗂️  Online Portfolio v3 🔥
+    </h1>
     <p>
       <i>Personal portfolio</i>
     </p>
@@ -32,9 +34,9 @@ $ npm eject
 
 ## 🏗️ Built With
 
+- [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind-css](https://tailwindcss.com/)
 - [Tailblocks](https://mertjf.github.io/tailblocks/)
 - [React JS](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
 - [Sass](https://sass-lang.com/)
 - [Netlify](https://www.netlify.com/)
