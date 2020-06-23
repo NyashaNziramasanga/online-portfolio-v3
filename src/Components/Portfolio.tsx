@@ -2,7 +2,12 @@ import React, { Fragment } from 'react';
 import lowerWave from '../assets/icons/background/lower-wave-2.svg';
 import upperWave from '../assets/icons/background/upper-wave-2.svg';
 import Heading from '../UI/Heading';
-import Card from '../UI/PortfolioCard';
+import PortfolioCard from '../UI/PortfolioCard';
+import GithubUserFinderGif from '../assets/images/portfolio/github-user-profile.gif';
+import GithubUserFinderPng from '../assets/images/portfolio/github-user-profile.png';
+import TaxCalculatorGif from '../assets/images/portfolio/tax-calculator.gif';
+import TaxCalculatorPng from '../assets/images/portfolio/tax-calculator.png';
+import mongoDdDemoGif from '../assets/images/portfolio/mongoDb-demo.gif';
 
 export const Portfolio = () => {
   return (
@@ -17,7 +22,7 @@ export const Portfolio = () => {
         />
 
         <div className='container px-5 py-24 mx-auto' data-aos='fade-in'>
-          <Card
+          <PortfolioCard
             name={'GitHub User Finder'}
             desc={
               'React app to search Github user profiles using the github api'
@@ -27,15 +32,19 @@ export const Portfolio = () => {
               'https://github.com/NyashaNziramasanga/GitHub-User-Finder'
             }
             webURL={'https://github-user-finder-web.netlify.com/'}
+            gif={GithubUserFinderGif}
+            image={GithubUserFinderPng}
           />
-          <Card
+          <PortfolioCard
             name={'Tax Calculator'}
             desc={'Income tax calculator react app'}
             tech={'React.js, Node.js, Express.js, MongoDB'}
             githubURL={'https://github.com/NyashaNziramasanga/tax-calculator'}
             webURL={'https://tax-calculator.netlify.app/'}
+            gif={TaxCalculatorGif}
+            image={TaxCalculatorPng}
           />
-          <Card
+          <PortfolioCard
             name={'Document Store Database Demo'}
             desc={
               'RESTful API demonstrating document store databases using MongoDB Atlas'
@@ -44,6 +53,7 @@ export const Portfolio = () => {
             githubURL={
               'https://github.com/NyashaNziramasanga/document-store-database-demo'
             }
+            gif={mongoDdDemoGif}
           />
         </div>
       </section>
