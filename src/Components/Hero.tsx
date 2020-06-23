@@ -15,8 +15,8 @@ export const Hero = () => {
             </span>
           </h1>
           <h2 className=' sm:text-2xl text-1xl mb-8 leading-relaxed'>
-            Also known as Nash and I'm a Software Developer based in Adelaide,
-            Australia developing web applications using JavaScript frameworks.
+            Also known as Nash and I'm a Software Developer based in Australia
+            developing web applications using JavaScript frameworks.
           </h2>
 
           <div className='flex justify-center'>

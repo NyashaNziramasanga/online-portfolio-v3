@@ -27,7 +27,7 @@ export const Experience = () => {
               </h2>
 
               <Paragraph
-                content={` As a Software Developer, at Platformers, I am a member of the
+                content={` As a Software Developer, at Platformers, I was member of the
                 Billow Software development team of 4 developers that managed
                 and support multiple client databases primarily in the
                 construction industry. Developing and implementing custom web
