@@ -19,7 +19,6 @@ export const Footer = () => {
             'https://www.linkedin.com/in/nyasha-nash-nziramasanga-446380116/'
           }
           twitterURL={'https://twitter.com/NyashaNziboi'}
-          facebookURL={'https://www.facebook.com/Nyasha.Nziboi'}
         />
       </div>
     </footer>

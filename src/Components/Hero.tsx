@@ -21,7 +21,7 @@ export const Hero = () => {
 
           <div className='flex justify-center'>
             <Button
-              name={'GET IN TOUCH'}
+              name={'CONTACT'}
               type={'blue'}
               action={'mailto:nyashanziramasanga@ymail.com'}
             />
@@ -38,7 +38,6 @@ export const Hero = () => {
                 'https://www.linkedin.com/in/nyasha-nash-nziramasanga-446380116/'
               }
               twitterURL={'https://twitter.com/NyashaNziboi'}
-              facebookURL={'https://www.facebook.com/Nyasha.Nziboi'}
             />
           </div>
         </div>
