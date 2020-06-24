@@ -11,6 +11,7 @@ export const Hero = () => {
           <h1 className='title-font sm:text-5xl text-4xl mb-4 font-medium text-gray-900'>
             Hi, I'm Nyasha
             <span role='img' aria-label='Waving Hand: Dark Skin Tone'>
+              {' '}
               👋🏿
             </span>
           </h1>
