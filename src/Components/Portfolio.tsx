@@ -7,6 +7,8 @@ import GithubUserFinderGif from '../assets/images/portfolio/github-user-profile.
 import GithubUserFinderPng from '../assets/images/portfolio/github-user-profile.png';
 import TaxCalculatorGif from '../assets/images/portfolio/tax-calculator.gif';
 import TaxCalculatorPng from '../assets/images/portfolio/tax-calculator.png';
+import OnlineResumePng from '../assets/images/portfolio/online-resume-v2.png';
+import OnlineResumeGif from '../assets/images/portfolio/online-resume-v2.gif';
 import mongoDdDemoGif from '../assets/images/portfolio/mongoDb-demo.gif';
 
 export const Portfolio = () => {
@@ -43,6 +45,15 @@ export const Portfolio = () => {
             webURL={'https://tax-calculator.netlify.app/'}
             gif={TaxCalculatorGif}
             image={TaxCalculatorPng}
+          />
+          <PortfolioCard
+            name={'Online Resume v2'}
+            desc={'Version 2 of my online resume'}
+            tech={'React.js, Sass'}
+            webURL={'https://nyasha-nziramasanga-v2.netlify.app/'}
+            githubURL={'https://github.com/NyashaNziramasanga/online-resume-v2'}
+            gif={OnlineResumeGif}
+            image={OnlineResumePng}
           />
           <PortfolioCard
             name={'Document Store Database Demo'}
