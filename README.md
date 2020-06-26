@@ -3,7 +3,7 @@
     🗂️  Online Portfolio v3 🔥
     </h1>
     <p>
-      <i>Personal portfolio on https://www.nyashanziramasanga.com/</i>
+      <i>Personal portfolio on <a href="https://www.nyashanziramasanga.com/">nyashanziramasanga.com</a></i>
     </p>
 </div>
 
