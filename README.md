@@ -3,7 +3,7 @@
     🗂️  Online Portfolio v3 🔥
     </h1>
     <p>
-      <i>Personal portfolio on https://dev-nash.netlify.app/</i>
+      <i>Personal portfolio on https://www.nyashanziramasanga.com/</i>
     </p>
 </div>
 
