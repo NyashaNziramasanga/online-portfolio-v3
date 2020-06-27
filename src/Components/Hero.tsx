@@ -28,7 +28,7 @@ export const Hero = () => {
             />
             <Button
               name={'RESUME'}
-              action={'/files/resume-of-nyasha-nziramasanga.pdf'}
+              action={'/files/resume-of-nyasha-nash-nziramasanga.pdf'}
               download={'resume-of-nyasha-nash-nziramasanga'}
             />
           </div>
