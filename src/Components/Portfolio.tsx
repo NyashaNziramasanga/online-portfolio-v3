@@ -9,6 +9,7 @@ import TaxCalculatorGif from '../assets/images/portfolio/tax-calculator.gif';
 import TaxCalculatorPng from '../assets/images/portfolio/tax-calculator.png';
 import OnlineResumePng from '../assets/images/portfolio/online-resume-v2.png';
 import OnlineResumeGif from '../assets/images/portfolio/online-resume-v2.gif';
+import Link from '../UI/Link';
 
 export const Portfolio = () => {
   return (
@@ -54,13 +55,10 @@ export const Portfolio = () => {
             gif={OnlineResumeGif}
             image={OnlineResumePng}
           />
-          <a
-            href='https://github.com/NyashaNziramasanga'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <p className='mt-3 text-blue-500 text-center'>More on Github...</p>
-          </a>
+          <Link
+            href={'https://github.com/NyashaNziramasanga'}
+            text={'More on Github...'}
+          />
         </div>
       </section>
       <img src={lowerWave} alt='' />
