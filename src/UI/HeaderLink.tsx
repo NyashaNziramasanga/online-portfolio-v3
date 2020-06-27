@@ -11,7 +11,7 @@ export default function HeaderLink(IHeaderLink: IHeaderLink) {
     <div>
       <Link
         activeClass='active'
-        className='mr-5 hover:text-white nav-link'
+        className='mr-3 hover:text-white nav-link'
         to={IHeaderLink.to}
         spy={true}
         smooth={true}

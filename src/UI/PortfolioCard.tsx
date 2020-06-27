@@ -7,8 +7,8 @@ interface IPortfolio {
   tech?: string;
   githubURL?: string;
   webURL?: string;
-  gif?: string;
-  image?: string;
+  gif: string;
+  image: string;
 }
 
 export default function PortfolioCard(IPortfolio: IPortfolio) {

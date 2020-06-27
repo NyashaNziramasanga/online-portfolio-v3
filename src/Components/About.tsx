@@ -36,7 +36,7 @@ export const About = () => {
             />
             <Paragraph
               content={`I'm currently studying a Masters of Computer Science at Flinders
-              University Adelaide which I will complete in Dec 2021.`}
+              University, Adelaide, Australia which I will complete in Dec 2021.`}
             />
             <Heading type={'white'} h2={'SKILLS:'} />
             <div className='items-stretch'>

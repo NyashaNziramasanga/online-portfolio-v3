@@ -15,15 +15,11 @@ export default function PortfolioImage(props: {
     >
       <div className='sm:w-64 sm:h-40 h-64 w-40 sm:mr-5 inline-flex items-center justify-center text-blue-400 bg-gray-800 flex-shrink-0 rounded'>
         <img
-          className='hover:opacity-0 bg-white absolute sm:w-64 sm:h-40 h-64 w-40 sm:mr-5 transition ease-in duration-500'
+          className='hover:opacity-0 bg-white absolute sm:w-64 sm:h-40 sm:mr-5 transition ease-in duration-500'
           src={props.image}
           alt={props.image}
         />
-        <img
-          className='sm:w-64 sm:h-40 h-64 w-40'
-          src={props.gif}
-          alt={props.gif}
-        />
+        <img className='sm:w-64 sm:h-40' src={props.gif} alt={props.gif} />
       </div>
     </a>
   );

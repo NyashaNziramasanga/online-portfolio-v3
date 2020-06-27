@@ -9,7 +9,6 @@ import TaxCalculatorGif from '../assets/images/portfolio/tax-calculator.gif';
 import TaxCalculatorPng from '../assets/images/portfolio/tax-calculator.png';
 import OnlineResumePng from '../assets/images/portfolio/online-resume-v2.png';
 import OnlineResumeGif from '../assets/images/portfolio/online-resume-v2.gif';
-import mongoDdDemoGif from '../assets/images/portfolio/mongoDb-demo.gif';
 
 export const Portfolio = () => {
   return (
@@ -54,17 +53,6 @@ export const Portfolio = () => {
             githubURL={'https://github.com/NyashaNziramasanga/online-resume-v2'}
             gif={OnlineResumeGif}
             image={OnlineResumePng}
-          />
-          <PortfolioCard
-            name={'Document Store Database Demo'}
-            desc={
-              'RESTful API demonstrating document store databases using MongoDB Atlas'
-            }
-            tech={'Node.js, Express.js, MongoDB'}
-            githubURL={
-              'https://github.com/NyashaNziramasanga/document-store-database-demo'
-            }
-            gif={mongoDdDemoGif}
           />
           <a
             href='https://github.com/NyashaNziramasanga'
