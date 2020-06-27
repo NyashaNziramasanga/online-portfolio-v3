@@ -11,9 +11,9 @@ export default function List(IList: IList) {
         <svg
           fill='none'
           stroke='currentColor'
-          stroke-linecap='round'
-          stroke-linejoin='round'
-          stroke-width='3'
+          strokeLinecap='round'
+          strokeLinejoin='round'
+          strokeWidth='3'
           className='w-3 h-3'
           viewBox='0 0 24 24'
         >

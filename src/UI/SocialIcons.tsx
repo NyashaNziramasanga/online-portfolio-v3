@@ -20,9 +20,9 @@ export default function SocialIcons(ISocialIcons: ISocialIcons) {
         >
           <svg
             fill='currentColor'
-            stroke-linecap='round'
-            stroke-linejoin='round'
-            stroke-width='2'
+            strokeLinecap='round'
+            strokeLinejoin='round'
+            strokeWidth='2'
             className='fill-current w-8 h-8'
             viewBox='0 0 24 24'
           >
@@ -39,9 +39,9 @@ export default function SocialIcons(ISocialIcons: ISocialIcons) {
         >
           <svg
             fill='currentColor'
-            stroke-linecap='round'
-            stroke-linejoin='round'
-            stroke-width='2'
+            strokeLinecap='round'
+            strokeLinejoin='round'
+            strokeWidth='2'
             className='w-8 h-8'
             viewBox='0 0 24 24'
           >
