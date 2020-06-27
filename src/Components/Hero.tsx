@@ -24,7 +24,7 @@ export const Hero = () => {
             <Button
               name={'CONTACT'}
               type={'blue'}
-              action={'mailto:nyashanziramasanga@ymail.com'}
+              action={'mailto:nyashanziramasanga1@gmail.com'}
             />
             <Button
               name={'RESUME'}
