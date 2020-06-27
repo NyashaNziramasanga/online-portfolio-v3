@@ -5,6 +5,7 @@ import lowerWave from '../assets/icons/background/lower-wave-1.svg';
 import Heading from '../UI/Heading';
 import Paragraph from '../UI/Paragraph';
 import List from '../UI/List';
+import AboutIcon from '../UI/AboutIcon';
 
 export const About = () => {
   return (
@@ -18,16 +19,7 @@ export const About = () => {
           animation={'fade-up'}
         />
         <div className='container mx-auto flex px-6 py-24 md:flex-row flex-col items-center'>
-          <div
-            data-aos='fade-right'
-            className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10'
-          >
-            <img
-              className='object-cover object-center rounded-full'
-              alt='hero'
-              src={nash}
-            />
-          </div>
+          <AboutIcon src={nash} />
           <div className='lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center'>
             <Paragraph
               content={`I enjoy developing and maintaining fullstack software
