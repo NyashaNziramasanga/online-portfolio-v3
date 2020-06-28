@@ -40,7 +40,7 @@ export const Portfolio = () => {
           <PortfolioCard
             name={'Tax Calculator'}
             desc={'Income tax calculator react app'}
-            tech={'React.js, Node.js, Express.js, MongoDB'}
+            tech={'React.js, Recoil, Sass, Tailwindcss'}
             githubURL={'https://github.com/NyashaNziramasanga/tax-calculator'}
             webURL={'https://tax-calculator.netlify.app/'}
             gif={TaxCalculatorGif}
