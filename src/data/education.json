@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Flinders University",
+    "city": "Adelaide",
+    "degree": "Master of Science, Computer Science",
+    "faculty": "College of Science and Engineering",
+    "period": "Feb 2020 - Current",
+    "uniLogo": "FlindersLogo"
+  },
+  {
+    "name": "Monash University",
+    "city": "Melbourne",
+    "degree": "Bachelor’s Degree, Information Technology and Systems",
+    "faculty": "Faculty of Information Technology (FIT)",
+    "period": "July 2014 - Feb 2018",
+    "uniLogo": "MonashLogo"
+  }
+]

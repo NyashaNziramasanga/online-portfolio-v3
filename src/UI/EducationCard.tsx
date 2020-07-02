@@ -1,4 +1,6 @@
 import React from 'react';
+import MonashLogo from '../assets/images/monash-logo.jpg';
+import FlindersLogo from '../assets/images/flinders-logo.png';
 
 interface IEducation {
   name: string;
@@ -21,7 +23,9 @@ export default function EducationCard(IEducation: IEducation) {
       <div className='flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row'>
         <div className='flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center'>
           <img
-            src={IEducation.uniLogo}
+            src={
+              IEducation.uniLogo === 'FlindersLogo' ? FlindersLogo : MonashLogo
+            }
             className='object-cover object-center rounded-full'
             alt='uni-logo'
           />
