@@ -1,11 +1,13 @@
 import React from 'react';
 
-export default function PortfolioImage(props: {
+interface ProfileImage {
   webURL: string | undefined;
   githubURL: string | undefined;
   image: string | undefined;
   gif: string | undefined;
-}) {
+}
+
+export default function PortfolioImage(props: ProfileImage) {
   return (
     <a
       href={props.webURL ? props.webURL : props.githubURL}

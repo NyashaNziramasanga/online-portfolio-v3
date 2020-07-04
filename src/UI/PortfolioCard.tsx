@@ -16,8 +16,8 @@ export default function PortfolioCard(IPortfolio: IPortfolio) {
     <div className='flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col'>
       <PortfolioImage
         image={IPortfolio.image}
-        githubURL={IPortfolio.githubURL}
         gif={IPortfolio.gif}
+        githubURL={IPortfolio.githubURL}
         webURL={IPortfolio.webURL}
       />
       <div className='flex-grow sm:text-left text-center mt-6 sm:mt-0'>
