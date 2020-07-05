@@ -10,7 +10,10 @@ export default function CompanyExperience(props: ICompanyExperience) {
       </div>
       <div className='md:flex-grow'>
         <h2 className='text-2xl font-medium text-gray-900 title-font mb-2'>
-          {props.company} <br />
+          <a href={props.url} className='hover:opacity-75'>
+            {props.company}
+          </a>
+          <br />
           <div className='text-blue-500'>{props.role}</div>
         </h2>
 

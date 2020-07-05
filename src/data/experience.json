@@ -2,12 +2,14 @@
   {
     "date": "Feb 2019 - Feb 2020",
     "company": "Platformers",
+    "url": "https://platformhub.com.au/home/",
     "role": "Junior Software Developer",
     "description": "As a Software Developer, at Platformers, I was member of the Billow Software development team of 4 developers that managed and support multiple client databases primarily in the construction industry. Developing and implementing full-stack web applications solutions for the Upvise.js Framework."
   },
   {
     "date": "Oct 2018 - Jan 2019",
     "company": "Carbar Auto",
+    "url": "https://www.carbar.com.au/",
     "role": "Intern Web Developer",
     "description": "As a Web Developer at Carbar Auto, I was a member of the development team that constructed both customer-facing and administrative sites for managing the sales and subscriptions of Carbar vehicles."
   }

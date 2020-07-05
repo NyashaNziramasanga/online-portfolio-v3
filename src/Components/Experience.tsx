@@ -2,6 +2,7 @@ import React from 'react';
 import Heading from '../UI/Heading';
 import CompanyExperience from '../UI/CompanyExperience';
 import data from '../data/experience.json';
+import ICompanyExperience from '../interfaces/ICompanyExperience';
 
 export const Experience = () => {
   return (
@@ -15,9 +16,10 @@ export const Experience = () => {
       />
       <div className='container px-6 py-24 mx-auto' data-aos='fade-in'>
         <div className='-my-8'>
-          {data.map((experience) => {
+          {data.map((experience: ICompanyExperience) => {
             return (
               <CompanyExperience
+                url={experience.url}
                 date={experience.date}
                 company={experience.company}
                 role={experience.role}

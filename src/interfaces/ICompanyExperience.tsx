@@ -4,4 +4,5 @@ export default interface ICompanyExperience {
   role: string;
   description: string;
   stack?: string;
+  url?: string;
 }
