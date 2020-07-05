@@ -9,7 +9,9 @@ import TaxCalculatorGif from '../assets/images/portfolio/tax-calculator.gif';
 import TaxCalculatorPng from '../assets/images/portfolio/tax-calculator.png';
 import OnlineResumePng from '../assets/images/portfolio/online-resume-v2.png';
 import OnlineResumeGif from '../assets/images/portfolio/online-resume-v2.gif';
+// import portfolio from '../data/portfolio.json';
 import Link from '../UI/Link';
+// import IPortfolio from '../interfaces/IPortfolio';
 
 export const Portfolio = () => {
   return (
@@ -24,6 +26,19 @@ export const Portfolio = () => {
         />
 
         <div className='container px-5 py-24 mx-auto' data-aos='fade-in'>
+          {/* {portfolio.map((p: IPortfolio) => {
+            return (
+              <PortfolioCard
+                name={p.name}
+                desc={p.desc}
+                tech={p.tech}
+                githubURL={p.githubURL}
+                webURL={p.webURL}
+                gif={p.gif}
+                image={p.image}
+              />
+            );
+          })} */}
           <PortfolioCard
             name={'GitHub User Finder'}
             desc={
