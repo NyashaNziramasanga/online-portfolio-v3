@@ -1,20 +1,13 @@
 import React from 'react';
+import ISocialIcons from '../interfaces/ISocialIcons';
 
-interface ISocialIcons {
-  facebookURL?: string;
-  twitterURL?: string;
-  instagramURL?: string;
-  linkedInURL?: string;
-  githubURL?: string;
-}
-
-export default function SocialIcons(ISocialIcons: ISocialIcons) {
+export default function SocialIcons(props: ISocialIcons) {
   return (
     <span className='inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start'>
-      {ISocialIcons.githubURL && (
+      {props.githubURL && (
         <a
           className='text-gray-600 hover:opacity-75'
-          href={ISocialIcons.githubURL}
+          href={props.githubURL}
           target='_blank'
           rel='noopener noreferrer'
         >
@@ -30,10 +23,10 @@ export default function SocialIcons(ISocialIcons: ISocialIcons) {
           </svg>
         </a>
       )}
-      {ISocialIcons.twitterURL && (
+      {props.twitterURL && (
         <a
           className='ml-3 text-gray-600 hover:opacity-75'
-          href={ISocialIcons.twitterURL}
+          href={props.twitterURL}
           target='_blank'
           rel='noopener noreferrer'
         >
@@ -49,10 +42,10 @@ export default function SocialIcons(ISocialIcons: ISocialIcons) {
           </svg>
         </a>
       )}
-      {ISocialIcons.linkedInURL && (
+      {props.linkedInURL && (
         <a
           className='ml-3 text-gray-600 hover:opacity-75'
-          href={ISocialIcons.linkedInURL}
+          href={props.linkedInURL}
           target='_blank'
           rel='noopener noreferrer'
         >

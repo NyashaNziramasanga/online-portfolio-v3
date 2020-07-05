@@ -1,45 +1,38 @@
 import React from 'react';
+import IHeading from '../interfaces/IHeading';
 
-interface IHeading {
-  type?: string;
-  h1?: string;
-  h2?: string;
-  gif?: string;
-  animation?: string;
-}
-
-export default function Heading(IHeading: IHeading) {
-  switch (IHeading.type) {
+export default function Heading(props: IHeading) {
+  switch (props.type) {
     case 'dark':
       return (
-        <div id={IHeading.h1} data-aos={IHeading.animation}>
+        <div id={props.h1} data-aos={props.animation}>
           <h1 className='sm:text-3xl text-2xl font-medium title-font text-center text-gray-900'>
-            {IHeading.h1}
+            {props.h1}
           </h1>
           <h2 className='sm:text-3xl text-2xl text-center text-gray-500'>
-            {IHeading.h2} <span role='img'>{IHeading.gif}</span>
+            {props.h2} <span role='img'>{props.gif}</span>
           </h2>
         </div>
       );
     case 'white':
       return (
-        <div id={IHeading.h1} data-aos={IHeading.animation}>
+        <div id={props.h1} data-aos={props.animation}>
           <h1 className='sm:text-3xl text-2xl font-medium title-font text-center text-gray-900'>
-            {IHeading.h1}
+            {props.h1}
           </h1>
           <h2 className='font-medium title-font tracking-widest text-white my-4 text-sm text-center sm:text-left'>
-            {IHeading.h2} <span role='img'>{IHeading.gif}</span>
+            {props.h2} <span role='img'>{props.gif}</span>
           </h2>
         </div>
       );
     default:
       return (
-        <div id={IHeading.h1} data-aos={IHeading.animation}>
+        <div id={props.h1} data-aos={props.animation}>
           <h1 className='sm:text-4xl text-6xl font-medium title-font text-center text-white'>
-            {IHeading.h1}
+            {props.h1}
           </h1>
           <h2 className='sm:text-3xl text-2xl text-center text-gray-500'>
-            {IHeading.h2} <span role='img'>{IHeading.gif}</span>
+            {props.h2} <span role='img'>{props.gif}</span>
           </h2>
         </div>
       );

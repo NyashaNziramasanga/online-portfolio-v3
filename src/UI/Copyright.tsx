@@ -1,22 +1,17 @@
 import React from 'react';
+import ICopyright from '../interfaces/ICopyright';
 
-interface ICopyright {
-  name: string;
-  twitterUrl?: string;
-  twitterName?: string;
-}
-
-export default function Copyright(ICopyright: ICopyright) {
+export default function Copyright(props: ICopyright) {
   return (
     <p className='text-sm text-gray-600 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4'>
-      © {new Date().getFullYear()} {ICopyright.name} —
+      © {new Date().getFullYear()} {props.name} —
       <a
-        href={ICopyright.twitterUrl}
+        href={props.twitterUrl}
         className='text-gray-500 ml-1'
         target='_blank'
         rel='noopener noreferrer'
       >
-        {ICopyright.twitterName}
+        {props.twitterName}
       </a>
     </p>
   );

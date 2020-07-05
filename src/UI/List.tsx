@@ -1,10 +1,7 @@
 import React from 'react';
+import IList from '../interfaces/IList';
 
-interface IList {
-  item: string;
-}
-
-export default function List(IList: IList) {
+export default function List(props: IList) {
   return (
     <span className='mr-3'>
       <span className='bg-gray-800 text-blue-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center'>
@@ -20,7 +17,7 @@ export default function List(IList: IList) {
           <path d='M20 6L9 17l-5-5'></path>
         </svg>{' '}
       </span>
-      {IList.item}
+      {props.item}
     </span>
   );
 }

@@ -1,10 +1,7 @@
 import React from 'react';
+import IAboutIcon from '../interfaces/IAboutIcon';
 
-interface IAboutIcon {
-  src: string;
-}
-
-export default function AboutIcon(IAboutIcon: IAboutIcon) {
+export default function AboutIcon(props: IAboutIcon) {
   return (
     <div
       data-aos='fade-right'
@@ -13,7 +10,7 @@ export default function AboutIcon(IAboutIcon: IAboutIcon) {
       <img
         className='object-cover object-center rounded-full'
         alt='hero'
-        src={IAboutIcon.src}
+        src={props.src}
       />
     </div>
   );

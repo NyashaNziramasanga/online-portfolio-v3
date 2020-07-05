@@ -1,13 +1,10 @@
 import React from 'react';
+import ILink from '../interfaces/ILink';
 
-interface ILink {
-  href: string;
-  text: string;
-}
-export default function Link(ILink: ILink) {
+export default function Link(props: ILink) {
   return (
-    <a href={ILink.href} target='_blank' rel='noopener noreferrer'>
-      <p className='mt-3 text-blue-500 text-center'>{ILink.text}</p>
+    <a href={props.href} target='_blank' rel='noopener noreferrer'>
+      <p className='mt-3 text-blue-500 text-center'>{props.text}</p>
     </a>
   );
 }

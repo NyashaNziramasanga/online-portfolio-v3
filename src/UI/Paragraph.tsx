@@ -1,9 +1,6 @@
 import React from 'react';
+import IParagraph from '../interfaces/IParagraph';
 
-interface IParagraph {
-  content: string;
-}
-
-export default function Paragraph(IParagraph: IParagraph) {
-  return <p className='mb-4 leading-relaxed'>{IParagraph.content}</p>;
+export default function Paragraph(props: IParagraph) {
+  return <p className='mb-4 leading-relaxed'>{props.content}</p>;
 }
