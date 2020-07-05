@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '../UI/Button';
 import Dev from '../assets/icons/Dev.svg';
 import SocialIcons from '../UI/SocialIcons';
+import data from '../data/hero.json';
 
 export const Hero = () => {
   return (
@@ -9,15 +10,14 @@ export const Hero = () => {
       <div className='container mx-auto flex px-6 py-24 md:flex-row flex-col items-center'>
         <div className='lg:flex-grow md:w-1/2 lg:px-12 md:px-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
           <h1 className='title-font sm:text-5xl text-4xl mb-4 font-medium text-gray-900'>
-            Hi, I'm Nyasha
+            {data.h1}
             <span role='img' aria-label='Waving Hand: Dark Skin Tone'>
               {' '}
               👋🏿
             </span>
           </h1>
           <h2 className='sm:text-2xl text-1xl mb-8 leading-relaxed'>
-            Also known as Nash and I'm a Software Developer based in Australia
-            developing web applications using JavaScript frameworks.
+            {data.h2}
           </h2>
 
           <div className='flex justify-center'>
