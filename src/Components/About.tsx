@@ -6,6 +6,7 @@ import Heading from '../UI/Heading';
 import Paragraph from '../UI/Paragraph';
 import List from '../UI/List';
 import AboutIcon from '../UI/AboutIcon';
+import data from '../data/about.json';
 
 export const About = () => {
   return (
@@ -21,35 +22,24 @@ export const About = () => {
         <div className='container mx-auto flex px-6 py-24 md:flex-row flex-col items-center'>
           <AboutIcon src={nash} />
           <div className='lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center'>
-            <Paragraph
-              content={`I enjoy developing and maintaining fullstack software
-              applications, and feel right at home as a Software Developer. I am
-              experienced in developing and designing products for the web.`}
-            />
-            <Paragraph
-              content={`I'm currently studying a Masters of Computer Science at Flinders
-              University, Adelaide, Australia which I will complete in Dec 2021.`}
-            />
+            <Paragraph content={data.aboutP1} />
+            <Paragraph content={data.aboutP2} />
             <Heading type={'white'} h2={'SKILLS:'} />
             <div className='items-stretch'>
               <Heading type={'white'} h2={'Programing Languages'} />
-              <List item={'TypeScript'} />
-              <List item={'JavaScript'} />
-              <List item={'Java'} />
-              <List item={'Sass'} />
+              {data.skills.programingLanguages.map((programingLanguages) => {
+                return <List item={programingLanguages} />;
+              })}
 
               <Heading type={'white'} h2={'Libraries & Frameworks'} />
-              <List item={'React'} />
-              <List item={'Node'} />
-              <List item={'MongoDB'} />
-              <List item={'Express'} />
+              {data.skills.libraries.map((libraries) => {
+                return <List item={libraries} />;
+              })}
 
               <Heading type={'white'} h2={'Tools'} />
-              <List item={'Git'} />
-              <List item={'Microsoft Azure'} />
-              <List item={'WordPress'} />
-              <List item={'Postman'} />
-              <List item={'Adobe Creative Cloud'} />
+              {data.skills.tools.map((tools) => {
+                return <List item={tools} />;
+              })}
             </div>
           </div>
         </div>
