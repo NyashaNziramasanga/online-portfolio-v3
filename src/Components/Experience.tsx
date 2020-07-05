@@ -1,7 +1,7 @@
 import React from 'react';
 import Heading from '../UI/Heading';
 import CompanyExperience from '../UI/CompanyExperience';
-import experience from '../data/experience.json';
+import data from '../data/experience.json';
 
 export const Experience = () => {
   return (
@@ -15,7 +15,7 @@ export const Experience = () => {
       />
       <div className='container px-6 py-24 mx-auto' data-aos='fade-in'>
         <div className='-my-8'>
-          {experience.map((experience) => {
+          {data.map((experience) => {
             return (
               <CompanyExperience
                 date={experience.date}
