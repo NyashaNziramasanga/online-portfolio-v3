@@ -16,7 +16,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "react-scroll": "^1.7.16",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.6"
   },
   "scripts": {
     "start": "react-scripts start",
