@@ -1,7 +1,8 @@
 <div align="center">
 <p align="center">
-
-<img src="./src/assets/icons/logo.svg" alt="" height="60"/>
+  <a href="https://www.nyashanziramasanga.com/">
+    <img src="./src/assets/icons/logo.svg" alt="" height="60"/>
+  </a>
 </p>
     <h1> 
     🗂️  Online Portfolio v3 🔥
