@@ -20,12 +20,12 @@ export default function CompanyExperience(props: ICompanyExperience) {
         <Paragraph content={props.description} />
 
         {props.stack && (
-          <p className='font-medium'>
+          <div className='font-medium'>
             Tech Stack:{' '}
             <p className='mt-2 text-gray-500 inline-flex items-center'>
               {props.stack}
             </p>
-          </p>
+          </div>
         )}
       </div>
     </div>
