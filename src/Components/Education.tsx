@@ -10,15 +10,14 @@ export const Education = () => {
       <Heading
         type={'dark'}
         h1={'EDUCATION'}
-        h2={'Qualifications and Tertiary Studies'}
-        gif={'🧑🏿‍🎓'}
+        h2={data.heading}
         animation={'fade-up'}
       />
       <div
         data-aos='fade-right'
         className='container px-6 py-24 mx-auto flex flex-wrap'
       >
-        {data.map((education: IEducation) => {
+        {data.education.map((education: IEducation) => {
           return (
             <EducationCard
               name={education.name}

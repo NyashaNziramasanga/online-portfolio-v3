@@ -10,13 +10,12 @@ export const Experience = () => {
       <Heading
         type={'dark'}
         h1={'EXPERIENCE'}
-        h2={`Places I've worked at`}
-        gif={'🏢'}
+        h2={data.heading}
         animation={'fade-up'}
       />
       <div className='container px-6 py-24 mx-auto' data-aos='fade-in'>
         <div className='-my-8'>
-          {data.map((experience: ICompanyExperience) => {
+          {data.experience.map((experience: ICompanyExperience) => {
             return (
               <CompanyExperience
                 url={experience.url}

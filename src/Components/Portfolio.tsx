@@ -9,7 +9,7 @@ import TaxCalculatorGif from '../assets/images/portfolio/tax-calculator.gif';
 import TaxCalculatorPng from '../assets/images/portfolio/tax-calculator.png';
 import OnlineResumePng from '../assets/images/portfolio/online-resume-v2.png';
 import OnlineResumeGif from '../assets/images/portfolio/online-resume-v2.gif';
-// import portfolio from '../data/portfolio.json';
+import data from '../data/portfolio.json';
 import Link from '../UI/Link';
 // import IPortfolio from '../interfaces/IPortfolio';
 
@@ -18,12 +18,7 @@ export const Portfolio = () => {
     <Fragment>
       <img src={upperWave} alt='' />
       <section className='text-gray-400 bg-gray-900 body-font'>
-        <Heading
-          h1={'PORTFOLIO'}
-          h2={`Projects I've worked on`}
-          gif={'🖥️'}
-          animation={'fade-up'}
-        />
+        <Heading h1={'PORTFOLIO'} h2={data.heading} animation={'fade-up'} />
 
         <div className='container px-5 py-24 mx-auto' data-aos='fade-in'>
           {/* {portfolio.map((p: IPortfolio) => {

@@ -13,12 +13,7 @@ export const About = () => {
     <Fragment>
       <img src={upperWave} alt='' />
       <section className='text-gray-500 bg-gray-900 body-font relative'>
-        <Heading
-          h1={'ABOUT'}
-          h2={'Coding is life'}
-          gif={'👨‍💻'}
-          animation={'fade-up'}
-        />
+        <Heading h1={'ABOUT'} h2={data.heading} animation={'fade-up'} />
         <div className='container mx-auto flex px-6 py-24 md:flex-row flex-col items-center'>
           <AboutIcon src={nash} />
           <div className='lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center'>
