@@ -1,4 +1,8 @@
 <div align="center">
+<p align="center">
+
+<img src="./src/assets/icons/logo.svg" alt="" height="60"/>
+</p>
     <h1> 
     🗂️  Online Portfolio v3 🔥
     </h1>
