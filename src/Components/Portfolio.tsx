@@ -44,7 +44,7 @@ export const Portfolio = () => {
             desc={
               'React app to search Github user profiles using the github api'
             }
-            tech={'React.js, Node.js, Express.js, MongoDB'}
+            tech={'React, Node, Express, MongoDB'}
             githubURL={
               'https://github.com/NyashaNziramasanga/GitHub-User-Finder'
             }
@@ -55,7 +55,7 @@ export const Portfolio = () => {
           <PortfolioCard
             name={'Tax Calculator'}
             desc={'Income tax calculator react app'}
-            tech={'React.js, Recoil, Sass, Tailwindcss'}
+            tech={'React, Recoil, Sass, Tailwindcss'}
             githubURL={'https://github.com/NyashaNziramasanga/tax-calculator'}
             webURL={'https://tax-calculator.netlify.app/'}
             gif={TaxCalculatorGif}
@@ -64,7 +64,7 @@ export const Portfolio = () => {
           <PortfolioCard
             name={'Online Resume v2'}
             desc={'Version 2 of my online resume'}
-            tech={'React.js, Sass'}
+            tech={'React, Sass'}
             webURL={'https://nyasha-nziramasanga-v2.netlify.app/'}
             githubURL={'https://github.com/NyashaNziramasanga/online-resume-v2'}
             gif={OnlineResumeGif}
