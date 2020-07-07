@@ -6,8 +6,7 @@
     "libraries": ["React", "Node", "MongoDB", "Express"],
     "tools": [
       "Git",
-      "Microsoft",
-      "Azure",
+      "Microsoft Azure",
       "WordPress",
       "Postman",
       "Adobe Creative Cloud"

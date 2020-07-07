@@ -24,6 +24,7 @@ export const Experience = () => {
                 company={experience.company}
                 role={experience.role}
                 description={experience.description}
+                stack={experience.stack}
               />
             );
           })}
