@@ -22,18 +22,18 @@ export const About = () => {
             <Heading type={'white'} h2={'SKILLS:'} />
             <div className='items-stretch'>
               <Heading type={'white'} h2={'Programing Languages'} />
-              {data.skills.programingLanguages.map((programingLanguages) => {
-                return <List item={programingLanguages} />;
+              {data.skills.programingLanguages.map((programingLanguages, i) => {
+                return <List key={i} item={programingLanguages} />;
               })}
 
               <Heading type={'white'} h2={'Libraries & Frameworks'} />
-              {data.skills.libraries.map((libraries) => {
-                return <List item={libraries} />;
+              {data.skills.libraries.map((libraries, i) => {
+                return <List key={i} item={libraries} />;
               })}
 
               <Heading type={'white'} h2={'Tools'} />
-              {data.skills.tools.map((tools) => {
-                return <List item={tools} />;
+              {data.skills.tools.map((tools, i) => {
+                return <List key={i} item={tools} />;
               })}
             </div>
           </div>

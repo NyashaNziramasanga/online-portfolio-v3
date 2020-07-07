@@ -17,9 +17,10 @@ export const Education = () => {
         data-aos='fade-right'
         className='container px-6 py-24 mx-auto flex flex-wrap'
       >
-        {data.education.map((education: IEducation) => {
+        {data.education.map((education: IEducation, i) => {
           return (
             <EducationCard
+              key={i}
               name={education.name}
               city={education.city}
               degree={education.degree}

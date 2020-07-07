@@ -15,9 +15,10 @@ export const Experience = () => {
       />
       <div className='container px-6 py-24 mx-auto' data-aos='fade-in'>
         <div className='-my-8'>
-          {data.experience.map((experience: ICompanyExperience) => {
+          {data.experience.map((experience: ICompanyExperience, i) => {
             return (
               <CompanyExperience
+                key={i}
                 url={experience.url}
                 date={experience.date}
                 company={experience.company}
