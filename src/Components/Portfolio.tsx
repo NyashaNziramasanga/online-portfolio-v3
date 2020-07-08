@@ -9,9 +9,9 @@ import TaxCalculatorGif from '../assets/images/portfolio/tax-calculator.gif';
 import TaxCalculatorPng from '../assets/images/portfolio/tax-calculator.png';
 import OnlineResumePng from '../assets/images/portfolio/online-resume-v2.png';
 import OnlineResumeGif from '../assets/images/portfolio/online-resume-v2.gif';
-import data from '../data/portfolio.json';
 import Link from '../UI/Link';
 // import IPortfolio from '../interfaces/IPortfolio';
+import data from '../data/portfolio.json';
 
 export const Portfolio = () => {
   return (
@@ -21,9 +21,10 @@ export const Portfolio = () => {
         <Heading h1={'PORTFOLIO'} h2={data.heading} animation={'fade-up'} />
 
         <div className='container px-5 py-24 mx-auto' data-aos='fade-in'>
-          {/* {portfolio.map((p: IPortfolio) => {
+          {/* {data.portfolio.map((p: IPortfolio, i) => {
             return (
               <PortfolioCard
+                key={i}
                 name={p.name}
                 desc={p.desc}
                 tech={p.tech}
