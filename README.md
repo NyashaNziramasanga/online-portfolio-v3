@@ -55,4 +55,4 @@ Deployed on netlify from master branch
 - [React JS](https://reactjs.org/)
 - [Sass](https://sass-lang.com/)
 - [Netlify](https://www.netlify.com/)
-- Icons from [font awesome](https://fontawesome.com/)
+- Icons from [fontawesome](https://fontawesome.com/)
