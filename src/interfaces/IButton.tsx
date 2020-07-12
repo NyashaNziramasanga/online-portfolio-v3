@@ -4,4 +4,5 @@ export default interface IButton {
   type?: string;
   icon?: string;
   download?: string;
+  color: 'blue' | 'gray';
 }

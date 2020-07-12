@@ -25,11 +25,13 @@ export const Hero = () => {
               name={'CONTACT'}
               type={'blue'}
               action={'mailto:nyashanziramasanga1@gmail.com'}
+              color={'blue'}
             />
             <Button
               name={'RESUME'}
               action={'/files/resume-of-nyasha-nash-nziramasanga.pdf'}
               download={'resume-of-nyasha-nash-nziramasanga'}
+              color={'gray'}
             />
           </div>
           <div className='flex justify-center my-8'>
