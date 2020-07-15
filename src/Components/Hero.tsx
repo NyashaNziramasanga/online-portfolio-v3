@@ -22,7 +22,7 @@ export const Hero = () => {
 
           <div className='flex justify-center'>
             <Button
-              name={'CONTACT'}
+              name={'CALL'}
               type={'blue'}
               action={'mailto:nyashanziramasanga1@gmail.com'}
               color={'blue'}
