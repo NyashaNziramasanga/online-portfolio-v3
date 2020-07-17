@@ -4,4 +4,5 @@ export default interface ISocialIcons {
   instagramURL?: string;
   linkedInURL?: string;
   githubURL?: string;
+  devURL?: string;
 }
