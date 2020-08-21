@@ -6,9 +6,9 @@
     "programingLanguages": ["TypeScript", "JavaScript", "Java", "Sass"],
     "libraries": ["React", "Node", "MongoDB", "Express"],
     "tools": [
+      "WordPress",
       "Git",
       "Microsoft Azure",
-      "WordPress",
       "Postman",
       "Adobe Creative Cloud"
     ]
