@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './App.scss';
-import { Header } from './components/Header';
 import { Hero } from './components/Hero';
+import { Header } from './components/Header';
 import { About } from './components/About';
 import { Experience } from './components/Experience';
 import { Portfolio } from './components/Portfolio';
