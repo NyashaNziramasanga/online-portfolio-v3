@@ -16,6 +16,7 @@ import responsiveAnimatedNavbarPng from '../assets/images/portfolio/responsive-a
 import responsiveAnimatedNavbarGif from '../assets/images/portfolio/responsive-animated-navbar.gif';
 import nashLauncherPng from '../assets/images/portfolio/nash-launcher.png';
 import nashLauncherGif from '../assets/images/portfolio/nash-launcher.gif';
+import screenyPng from '../assets/images/portfolio/screeny.png';
 import Link from '../ui/Link';
 import data from '../data/portfolio.json';
 
@@ -55,9 +56,9 @@ export const Portfolio = () => {
           </div>
 
           <PortfolioCard
-            name={'🔎 React App to search Github user profiles 🔎'}
+            name={' React App to search Github user profiles'}
             desc={
-              'React app to search Github user profiles using the github api'
+              '🔎 React app to search Github user profiles using the github api 🔎'
             }
             tech={'React, Node, Express, MongoDB'}
             githubURL={
@@ -141,7 +142,7 @@ export const Portfolio = () => {
               'https://github.com/NyashaNziramasanga/electron-screen-recorder'
             }
             gif={''}
-            image={''}
+            image={screenyPng}
             platform={'desktop'}
             openTab={openTab}
           />
