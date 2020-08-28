@@ -1,10 +1,5 @@
 import React from 'react';
-
-interface ITablist {
-  setOpenTab: any;
-  openTab: any;
-  type: 'web' | 'mobile' | 'chrome' | 'desktop' | 'other';
-}
+import ITablist from '../types/ITablist';
 
 export default function Tablist(props: ITablist) {
   const Title = props.type.charAt(0).toUpperCase() + props.type.slice(1);
