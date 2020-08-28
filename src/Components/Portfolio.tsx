@@ -3,6 +3,7 @@ import lowerWave from '../assets/icons/background/lower-wave-2.svg';
 import upperWave from '../assets/icons/background/upper-wave-2.svg';
 import Heading from '../ui/Heading';
 import PortfolioCard from '../ui/PortfolioCard';
+import Tablist from '../ui/Tablist';
 import GithubUserFinderGif from '../assets/images/portfolio/github-user-profile.gif';
 import GithubUserFinderPng from '../assets/images/portfolio/github-user-profile.png';
 import TaxCalculatorGif from '../assets/images/portfolio/tax-calculator.gif';
@@ -24,85 +25,27 @@ export const Portfolio = () => {
         <div className='container px-5 py-12 mx-auto' data-aos='fade-in'>
           <div className='flex items-center justify-center w-full py-10'>
             <ul className='flex'>
-              <li className='mr-3'>
-                <a
-                  className={`inline-block border rounded py-1 px-3 text-white ${
-                    openTab === 'web'
-                      ? 'bg-blue-500 border-blue-500'
-                      : 'border-white'
-                  }
-                `}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setOpenTab('web');
-                  }}
-                  data-toggle='tab'
-                  href='#web'
-                  role='tablist'
-                >
-                  Web
-                </a>
-              </li>
-
-              <li className='mr-3'>
-                <a
-                  className={`inline-block border rounded py-1 px-3 text-white ${
-                    openTab === 'mobile'
-                      ? 'bg-blue-500 border-blue-500'
-                      : 'border-white'
-                  }
-                `}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setOpenTab('mobile');
-                  }}
-                  data-toggle='tab'
-                  href='#mobile'
-                  role='tablist'
-                >
-                  Mobile
-                </a>
-              </li>
-
-              <li className='mr-3'>
-                <a
-                  className={`inline-block border rounded py-1 px-3 text-white ${
-                    openTab === 'chrome'
-                      ? 'bg-blue-500 border-blue-500'
-                      : 'border-white'
-                  }
-                `}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setOpenTab('chrome');
-                  }}
-                  data-toggle='tab'
-                  href='#chrome'
-                  role='tablist'
-                >
-                  Chrome
-                </a>
-              </li>
-
-              <li className='mr-3'>
-                <a
-                  className={`inline-block border rounded py-1 px-3 text-white ${
-                    openTab === 'desktop'
-                      ? 'bg-blue-500 border-blue-500'
-                      : 'border-white'
-                  }
-                `}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setOpenTab('desktop');
-                  }}
-                  data-toggle='tab'
-                  href='#desktop'
-                  role='tablist'
-                >
-                  Desktop
-                </a>
-              </li>
+              <Tablist setOpenTab={setOpenTab} openTab={openTab} type={'web'} />
+              <Tablist
+                setOpenTab={setOpenTab}
+                openTab={openTab}
+                type={'mobile'}
+              />
+              <Tablist
+                setOpenTab={setOpenTab}
+                openTab={openTab}
+                type={'chrome'}
+              />
+              <Tablist
+                setOpenTab={setOpenTab}
+                openTab={openTab}
+                type={'desktop'}
+              />
+              <Tablist
+                setOpenTab={setOpenTab}
+                openTab={openTab}
+                type={'other'}
+              />
             </ul>
           </div>
 
