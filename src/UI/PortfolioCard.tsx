@@ -1,6 +1,6 @@
 import React from 'react';
-import PortfolioImage from '../UI/PortfolioImage';
-import IPortfolio from '../interfaces/IPortfolio';
+import PortfolioImage from './PortfolioImage';
+import IPortfolio from '../types/IPortfolio';
 
 export default function PortfolioCard(props: IPortfolio) {
   return (

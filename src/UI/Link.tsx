@@ -1,5 +1,5 @@
 import React from 'react';
-import ILink from '../interfaces/ILink';
+import ILink from '../types/ILink';
 
 export default function Link(props: ILink) {
   return (

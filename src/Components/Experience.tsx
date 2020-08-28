@@ -1,8 +1,8 @@
 import React from 'react';
-import Heading from '../UI/Heading';
-import CompanyExperience from '../UI/CompanyExperience';
+import Heading from '../ui/Heading';
+import CompanyExperience from '../ui/CompanyExperience';
 import data from '../data/experience.json';
-import ICompanyExperience from '../interfaces/ICompanyExperience';
+import ICompanyExperience from '../types/ICompanyExperience';
 
 export const Experience = () => {
   return (

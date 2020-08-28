@@ -1,5 +1,5 @@
 import React from 'react';
-import IAboutIcon from '../interfaces/IAboutIcon';
+import IAboutIcon from '../types/IAboutIcon';
 
 export default function AboutIcon(props: IAboutIcon) {
   return (

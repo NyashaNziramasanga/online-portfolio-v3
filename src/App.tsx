@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import './App.scss';
-import { Header } from './Components/Header';
-import { Hero } from './Components/Hero';
-import { About } from './Components/About';
-import { Experience } from './Components/Experience';
-import { Portfolio } from './Components/Portfolio';
-import { Education } from './Components/Education';
-import { Footer } from './Components/Footer';
+import { Header } from './components/Header';
+import { Hero } from './components/Hero';
+import { About } from './components/About';
+import { Experience } from './components/Experience';
+import { Portfolio } from './components/Portfolio';
+import { Education } from './components/Education';
+import { Footer } from './components/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

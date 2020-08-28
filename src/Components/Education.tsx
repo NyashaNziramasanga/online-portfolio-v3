@@ -1,8 +1,8 @@
 import React from 'react';
-import Heading from '../UI/Heading';
-import EducationCard from '../UI/EducationCard';
+import Heading from '../ui/Heading';
+import EducationCard from '../ui/EducationCard';
 import data from '../data/education.json';
-import IEducation from '../interfaces/IEducation';
+import IEducation from '../types/IEducation';
 
 export const Education = () => {
   return (

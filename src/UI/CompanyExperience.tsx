@@ -1,6 +1,6 @@
 import React from 'react';
 import Paragraph from './Paragraph';
-import ICompanyExperience from '../interfaces/ICompanyExperience';
+import ICompanyExperience from '../types/ICompanyExperience';
 
 export default function CompanyExperience(props: ICompanyExperience) {
   return (

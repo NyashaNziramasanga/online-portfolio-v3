@@ -1,5 +1,5 @@
 import React from 'react';
-import IHeading from '../interfaces/IHeading';
+import IHeading from '../types/IHeading';
 
 export default function Heading(props: IHeading) {
   switch (props.type) {

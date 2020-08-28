@@ -1,5 +1,5 @@
 import React from 'react';
-import ISocialIcons from '../interfaces/ISocialIcons';
+import ISocialIcons from '../types/ISocialIcons';
 
 export default function SocialIcons(props: ISocialIcons) {
   return (

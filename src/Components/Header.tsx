@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from '../UI/Logo';
-import HeaderLink from '../UI/HeaderLink';
+import Logo from '../ui/Logo';
+import HeaderLink from '../ui/HeaderLink';
 
 export const Header = () => {
   return (

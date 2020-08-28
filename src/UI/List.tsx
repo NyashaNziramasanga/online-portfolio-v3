@@ -1,5 +1,5 @@
 import React from 'react';
-import IList from '../interfaces/IList';
+import IList from '../types/IList';
 
 export default function List(props: IList) {
   return (

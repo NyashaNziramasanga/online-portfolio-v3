@@ -1,5 +1,5 @@
 import React from 'react';
-import IButton from '../interfaces/IButton';
+import IButton from '../types/IButton';
 
 export default function Button(props: IButton) {
   const blue = 'text-white bg-blue-500 hover:bg-blue-600';

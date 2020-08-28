@@ -1,5 +1,5 @@
 import React from 'react';
-import ICopyright from '../interfaces/ICopyright';
+import ICopyright from '../types/ICopyright';
 
 export default function Copyright(props: ICopyright) {
   return (

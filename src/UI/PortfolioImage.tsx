@@ -1,5 +1,5 @@
 import React from 'react';
-import IPortfolio from '../interfaces/IPortfolio';
+import IPortfolio from '../types/IPortfolio';
 
 export default function PortfolioImage(props: IPortfolio) {
   return (

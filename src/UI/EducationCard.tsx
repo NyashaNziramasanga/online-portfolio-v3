@@ -1,7 +1,7 @@
 import React from 'react';
 import MonashLogo from '../assets/images/monash-logo.jpg';
 import FlindersLogo from '../assets/images/flinders-logo.png';
-import IEducation from '../interfaces/IEducation';
+import IEducation from '../types/IEducation';
 
 export default function EducationCard(props: IEducation) {
   return (

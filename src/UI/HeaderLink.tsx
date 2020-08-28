@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import IHeaderLink from '../interfaces/IHeaderLink';
+import IHeaderLink from '../types/IHeaderLink';
 
 export default function HeaderLink(props: IHeaderLink) {
   return (

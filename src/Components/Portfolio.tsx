@@ -1,15 +1,15 @@
 import React, { Fragment } from 'react';
 import lowerWave from '../assets/icons/background/lower-wave-2.svg';
 import upperWave from '../assets/icons/background/upper-wave-2.svg';
-import Heading from '../UI/Heading';
-import PortfolioCard from '../UI/PortfolioCard';
+import Heading from '../ui/Heading';
+import PortfolioCard from '../ui/PortfolioCard';
 import GithubUserFinderGif from '../assets/images/portfolio/github-user-profile.gif';
 import GithubUserFinderPng from '../assets/images/portfolio/github-user-profile.png';
 import TaxCalculatorGif from '../assets/images/portfolio/tax-calculator.gif';
 import TaxCalculatorPng from '../assets/images/portfolio/tax-calculator.png';
 import OnlineResumePng from '../assets/images/portfolio/online-resume-v2.png';
 import OnlineResumeGif from '../assets/images/portfolio/online-resume-v2.gif';
-import Link from '../UI/Link';
+import Link from '../ui/Link';
 // import IPortfolio from '../interfaces/IPortfolio';
 import data from '../data/portfolio.json';
 
