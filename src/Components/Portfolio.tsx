@@ -10,6 +10,10 @@ import TaxCalculatorGif from '../assets/images/portfolio/tax-calculator.gif';
 import TaxCalculatorPng from '../assets/images/portfolio/tax-calculator.png';
 import OnlineResumePng from '../assets/images/portfolio/online-resume-v2.png';
 import OnlineResumeGif from '../assets/images/portfolio/online-resume-v2.gif';
+import CounterExampleGif from '../assets/images/portfolio/counter-example.gif';
+import CounterExamplePng from '../assets/images/portfolio/counter-example.png';
+import responsiveAnimatedNavbarPng from '../assets/images/portfolio/responsive-animated-navbar.png';
+import responsiveAnimatedNavbarGif from '../assets/images/portfolio/responsive-animated-navbar.gif';
 import Link from '../ui/Link';
 import data from '../data/portfolio.json';
 
@@ -54,7 +58,7 @@ export const Portfolio = () => {
           </div>
 
           <PortfolioCard
-            name={'GitHub User Finder'}
+            name={'🔎 React App to search Github user profiles 🔎'}
             desc={
               'React app to search Github user profiles using the github api'
             }
@@ -71,7 +75,7 @@ export const Portfolio = () => {
 
           <PortfolioCard
             name={'Tax Calculator'}
-            desc={'Income tax calculator react app'}
+            desc={'🧾 Income tax calculator react app 💵'}
             tech={'React, Recoil, Sass, Tailwindcss'}
             githubURL={'https://github.com/NyashaNziramasanga/tax-calculator'}
             webURL={'https://tax-calculator.netlify.app/'}
@@ -83,12 +87,40 @@ export const Portfolio = () => {
 
           <PortfolioCard
             name={'Online Resume v2'}
-            desc={'Version 2 of my online resume'}
+            desc={'📝 Version 2 of my online resume 📝'}
             tech={'React, Sass'}
             webURL={'https://nyasha-nziramasanga-v2.netlify.app/'}
             githubURL={'https://github.com/NyashaNziramasanga/online-resume-v2'}
             gif={OnlineResumeGif}
             image={OnlineResumePng}
+            platform={'web'}
+            openTab={openTab}
+          />
+
+          <PortfolioCard
+            name={'React Recoil Counter'}
+            desc={'⛓️ Recoil state management with React JS counter example ⛓️'}
+            tech={'React, Recoil'}
+            webURL={'https://react-recoil-counter-example.vercel.app/'}
+            githubURL={
+              'https://github.com/NyashaNziramasanga/react-recoil-counter-example'
+            }
+            gif={CounterExampleGif}
+            image={CounterExamplePng}
+            platform={'web'}
+            openTab={openTab}
+          />
+
+          <PortfolioCard
+            name={'React Responsive Animated Navbar'}
+            desc={'👾 React Responsive Animated CSS Navbar 🚀'}
+            tech={'React, CSS'}
+            webURL={'https://react-responsive-animated-navbar.vercel.app/'}
+            githubURL={
+              'https://github.com/NyashaNziramasanga/react-responsive-animated-navbar'
+            }
+            gif={responsiveAnimatedNavbarGif}
+            image={responsiveAnimatedNavbarPng}
             platform={'web'}
             openTab={openTab}
           />
