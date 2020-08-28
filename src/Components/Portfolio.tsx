@@ -14,6 +14,8 @@ import CounterExampleGif from '../assets/images/portfolio/counter-example.gif';
 import CounterExamplePng from '../assets/images/portfolio/counter-example.png';
 import responsiveAnimatedNavbarPng from '../assets/images/portfolio/responsive-animated-navbar.png';
 import responsiveAnimatedNavbarGif from '../assets/images/portfolio/responsive-animated-navbar.gif';
+import nashLauncherPng from '../assets/images/portfolio/nash-launcher.png';
+import nashLauncherGif from '../assets/images/portfolio/nash-launcher.gif';
 import Link from '../ui/Link';
 import data from '../data/portfolio.json';
 
@@ -48,11 +50,6 @@ export const Portfolio = () => {
                 setOpenTab={setOpenTab}
                 openTab={openTab}
                 platform={'desktop'}
-              />
-              <Tablist
-                setOpenTab={setOpenTab}
-                openTab={openTab}
-                platform={'other'}
               />
             </ul>
           </div>
@@ -122,6 +119,30 @@ export const Portfolio = () => {
             gif={responsiveAnimatedNavbarGif}
             image={responsiveAnimatedNavbarPng}
             platform={'web'}
+            openTab={openTab}
+          />
+
+          <PortfolioCard
+            name={'Nash launcher'}
+            desc={'🔗 Chrome extension with quick links to social profiles  🔗'}
+            tech={'TypeScript, React, Sass, Shell'}
+            githubURL={'https://github.com/NyashaNziramasanga/nash-launcher'}
+            gif={nashLauncherGif}
+            image={nashLauncherPng}
+            platform={'chrome'}
+            openTab={openTab}
+          />
+
+          <PortfolioCard
+            name={'Electron Screen Recorder'}
+            desc={'🖥️ Screen recording app built with electron  📹'}
+            tech={'Electron, Javascript, HTML, CSS'}
+            githubURL={
+              'https://github.com/NyashaNziramasanga/electron-screen-recorder'
+            }
+            gif={''}
+            image={''}
+            platform={'desktop'}
             openTab={openTab}
           />
 
