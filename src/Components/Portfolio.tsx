@@ -25,26 +25,30 @@ export const Portfolio = () => {
         <div className='container px-5 py-12 mx-auto' data-aos='fade-in'>
           <div className='flex items-center justify-center w-full py-10'>
             <ul className='flex'>
-              <Tablist setOpenTab={setOpenTab} openTab={openTab} type={'web'} />
               <Tablist
                 setOpenTab={setOpenTab}
                 openTab={openTab}
-                type={'mobile'}
+                platform={'web'}
               />
               <Tablist
                 setOpenTab={setOpenTab}
                 openTab={openTab}
-                type={'chrome'}
+                platform={'mobile'}
               />
               <Tablist
                 setOpenTab={setOpenTab}
                 openTab={openTab}
-                type={'desktop'}
+                platform={'chrome'}
               />
               <Tablist
                 setOpenTab={setOpenTab}
                 openTab={openTab}
-                type={'other'}
+                platform={'desktop'}
+              />
+              <Tablist
+                setOpenTab={setOpenTab}
+                openTab={openTab}
+                platform={'other'}
               />
             </ul>
           </div>
