@@ -1,6 +1,6 @@
 import React from 'react';
-import Heading from '../ui/Heading';
-import CompanyExperience from '../ui/CompanyExperience';
+import Heading from '../UI/Heading';
+import CompanyExperience from '../UI/CompanyExperience';
 import data from '../data/experience.json';
 import ICompanyExperience from '../types/ICompanyExperience';
 

@@ -2,10 +2,10 @@ import React, { Fragment } from 'react';
 import nash from '../assets/images/nash.jpg';
 import upperWave from '../assets/icons/background/upper-wave-1.svg';
 import lowerWave from '../assets/icons/background/lower-wave-1.svg';
-import Heading from '../ui/Heading';
-import Paragraph from '../ui/Paragraph';
-import List from '../ui/List';
-import AboutIcon from '../ui/AboutIcon';
+import Heading from '../UI/Heading';
+import Paragraph from '../UI/Paragraph';
+import List from '../UI/List';
+import AboutIcon from '../UI/AboutIcon';
 import data from '../data/about.json';
 
 export default function About() {

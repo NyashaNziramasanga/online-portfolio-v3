@@ -1,6 +1,6 @@
 import React from 'react';
-import Heading from '../ui/Heading';
-import EducationCard from '../ui/EducationCard';
+import Heading from '../UI/Heading';
+import EducationCard from '../UI/EducationCard';
 import data from '../data/education.json';
 import IEducation from '../types/IEducation';
 

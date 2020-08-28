@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from '../ui/Logo';
-import HeaderLink from '../ui/HeaderLink';
+import Logo from '../UI/Logo';
+import HeaderLink from '../UI/HeaderLink';
 
 export default function Header() {
   return (

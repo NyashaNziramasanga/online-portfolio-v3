@@ -1,9 +1,9 @@
 import React, { Fragment, useState } from 'react';
 import lowerWave from '../assets/icons/background/lower-wave-2.svg';
 import upperWave from '../assets/icons/background/upper-wave-2.svg';
-import Heading from '../ui/Heading';
-import PortfolioCard from '../ui/PortfolioCard';
-import Tablist from '../ui/Tablist';
+import Heading from '../UI/Heading';
+import PortfolioCard from '../UI/PortfolioCard';
+import Tablist from '../UI/Tablist';
 import GithubUserFinderGif from '../assets/images/portfolio/github-user-profile.gif';
 import GithubUserFinderPng from '../assets/images/portfolio/github-user-profile.png';
 import TaxCalculatorGif from '../assets/images/portfolio/tax-calculator.gif';
@@ -21,7 +21,7 @@ import mpcPng from '../assets/images/portfolio/mpc.png';
 import platformersPng from '../assets/images/portfolio/platformers.png';
 import platformHubPng from '../assets/images/portfolio/platformhub.png';
 import sanspaperPng from '../assets/images/portfolio/sanspaper.png';
-import Link from '../ui/Link';
+import Link from '../UI/Link';
 import data from '../data/portfolio.json';
 
 export default function Portfolio() {

@@ -1,7 +1,7 @@
 import React from 'react';
-import Button from '../ui/Button';
+import Button from '../UI/Button';
 import Dev from '../assets/icons/Dev.svg';
-import SocialIcons from '../ui/SocialIcons';
+import SocialIcons from '../UI/SocialIcons';
 import data from '../data/hero.json';
 
 export default function Hero() {

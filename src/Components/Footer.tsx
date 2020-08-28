@@ -1,7 +1,7 @@
 import React from 'react';
-import Logo from '../ui/Logo';
-import Copyright from '../ui/Copyright';
-import SocialIcons from '../ui/SocialIcons';
+import Logo from '../UI/Logo';
+import Copyright from '../UI/Copyright';
+import SocialIcons from '../UI/SocialIcons';
 
 export default function Footer() {
   return (
