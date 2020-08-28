@@ -8,7 +8,8 @@
       "githubURL": "https://github.com/NyashaNziramasanga/GitHub-User-Finder",
       "webURL": "https://github-user-finder-web.netlify.com/",
       "gif": "../assets/images/portfolio/github-user-profile.gif",
-      "image": "../assets/images/portfolio/github-user-profile.png"
+      "image": "../assets/images/portfolio/github-user-profile.png",
+      "platform": "web"
     },
     {
       "name": "Tax Calculator",
@@ -17,7 +18,8 @@
       "githubURL": "https://github.com/NyashaNziramasanga/tax-calculator",
       "webURL": "https://tax-calculator.netlify.app/",
       "gif": "../assets/images/portfolio/tax-calculator.gif",
-      "image": "../assets/images/portfolio/tax-calculator.png"
+      "image": "../assets/images/portfolio/tax-calculator.png",
+      "platform": "web"
     },
     {
       "name": "Online Resume v2",
@@ -26,7 +28,8 @@
       "githubURL": "https://github.com/NyashaNziramasanga/online-resume-v2",
       "webURL": "https://nyasha-nziramasanga-v2.netlify.app/",
       "gif": "../assets/images/portfolio/online-resume-v2.gif",
-      "image": "../assets/images/portfolio/online-resume-v2.png"
+      "image": "../assets/images/portfolio/online-resume-v2.png",
+      "platform": "web"
     }
   ]
 }
