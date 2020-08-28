@@ -3,7 +3,7 @@ import Logo from '../ui/Logo';
 import Copyright from '../ui/Copyright';
 import SocialIcons from '../ui/SocialIcons';
 
-export const Footer = () => {
+export default function Footer() {
   return (
     <footer className='text-gray-500 bg-gray-900 body-font'>
       <div className='container px-6 py-8 mx-auto flex items-center sm:flex-row flex-col'>
@@ -24,4 +24,4 @@ export const Footer = () => {
       </div>
     </footer>
   );
-};
+}

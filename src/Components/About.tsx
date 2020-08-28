@@ -8,7 +8,7 @@ import List from '../ui/List';
 import AboutIcon from '../ui/AboutIcon';
 import data from '../data/about.json';
 
-export const About = () => {
+export default function About() {
   return (
     <Fragment>
       <img src={upperWave} alt='' />
@@ -42,4 +42,4 @@ export const About = () => {
       <img src={lowerWave} alt='' />
     </Fragment>
   );
-};
+}

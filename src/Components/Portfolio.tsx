@@ -24,7 +24,7 @@ import sanspaperPng from '../assets/images/portfolio/sanspaper.png';
 import Link from '../ui/Link';
 import data from '../data/portfolio.json';
 
-export const Portfolio = () => {
+export default function Portfolio() {
   const [openTab, setOpenTab] = useState('web');
 
   return (
@@ -213,4 +213,4 @@ export const Portfolio = () => {
       <img src={lowerWave} alt='' />
     </Fragment>
   );
-};
+}

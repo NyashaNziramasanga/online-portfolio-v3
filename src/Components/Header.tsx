@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../ui/Logo';
 import HeaderLink from '../ui/HeaderLink';
 
-export const Header = () => {
+export default function Header() {
   return (
     <div>
       <header className='text-gray-500 bg-gray-900 body-font'>
@@ -18,4 +18,4 @@ export const Header = () => {
       </header>
     </div>
   );
-};
+}

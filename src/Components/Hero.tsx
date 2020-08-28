@@ -4,7 +4,7 @@ import Dev from '../assets/icons/Dev.svg';
 import SocialIcons from '../ui/SocialIcons';
 import data from '../data/hero.json';
 
-export const Hero = () => {
+export default function Hero() {
   return (
     <section data-aos='fade-in' className='text-gray-700 body-font'>
       <div className='container mx-auto flex px-6 py-24 md:flex-row flex-col items-center'>
@@ -51,4 +51,4 @@ export const Hero = () => {
       </div>
     </section>
   );
-};
+}

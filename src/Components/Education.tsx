@@ -4,7 +4,7 @@ import EducationCard from '../ui/EducationCard';
 import data from '../data/education.json';
 import IEducation from '../types/IEducation';
 
-export const Education = () => {
+export default function Education() {
   return (
     <section className='text-gray-700 body-font'>
       <Heading
@@ -33,4 +33,4 @@ export const Education = () => {
       </div>
     </section>
   );
-};
+}

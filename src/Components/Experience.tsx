@@ -4,7 +4,7 @@ import CompanyExperience from '../ui/CompanyExperience';
 import data from '../data/experience.json';
 import ICompanyExperience from '../types/ICompanyExperience';
 
-export const Experience = () => {
+export default function Experience() {
   return (
     <section className='text-gray-900 body-font overflow-hidden'>
       <Heading
@@ -32,4 +32,4 @@ export const Experience = () => {
       </div>
     </section>
   );
-};
+}
