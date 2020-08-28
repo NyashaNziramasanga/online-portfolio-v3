@@ -17,6 +17,10 @@ import responsiveAnimatedNavbarGif from '../assets/images/portfolio/responsive-a
 import nashLauncherPng from '../assets/images/portfolio/nash-launcher.png';
 import nashLauncherGif from '../assets/images/portfolio/nash-launcher.gif';
 import screenyPng from '../assets/images/portfolio/screeny.png';
+import mpcPng from '../assets/images/portfolio/mpc.png';
+import platformersPng from '../assets/images/portfolio/platformers.png';
+import platformHubPng from '../assets/images/portfolio/platformhub.png';
+import sanspaperPng from '../assets/images/portfolio/sanspaper.png';
 import Link from '../ui/Link';
 import data from '../data/portfolio.json';
 
@@ -36,6 +40,11 @@ export const Portfolio = () => {
                 setOpenTab={setOpenTab}
                 openTab={openTab}
                 platform={'web'}
+              />
+              <Tablist
+                setOpenTab={setOpenTab}
+                openTab={openTab}
+                platform={'wordpress'}
               />
               <Tablist
                 setOpenTab={setOpenTab}
@@ -144,6 +153,54 @@ export const Portfolio = () => {
             gif={''}
             image={screenyPng}
             platform={'desktop'}
+            openTab={openTab}
+          />
+
+          <PortfolioCard
+            name={'Monash Photography Club (MPC)'}
+            desc={'Official MPC site for Monash University Photography Club'}
+            tech={'WordPress'}
+            webURL={'https://www.monashphotographyclub.com/'}
+            gif={''}
+            image={mpcPng}
+            platform={'wordpress'}
+            openTab={openTab}
+          />
+
+          <PortfolioCard
+            name={'Platformers'}
+            desc={
+              'Company cite for Platformers for advertising software services'
+            }
+            tech={'WordPress'}
+            webURL={'https://platformers.com.au/'}
+            gif={''}
+            image={platformersPng}
+            platform={'wordpress'}
+            openTab={openTab}
+          />
+
+          <PortfolioCard
+            name={'Platform Hub'}
+            desc={
+              'Sass platform for user management and integrations to gsuite, upvise and more'
+            }
+            tech={'React, Node, Express, MongoDB'}
+            webURL={'https://platformhub.com.au/home/'}
+            gif={''}
+            image={platformHubPng}
+            platform={'web'}
+            openTab={openTab}
+          />
+
+          <PortfolioCard
+            name={'Sans Paper'}
+            desc={'Website advertising Sans Paper Mobile App'}
+            tech={'Wordpress'}
+            webURL={'http://sanspaper.com.au/'}
+            gif={''}
+            image={sanspaperPng}
+            platform={'wordpress'}
             openTab={openTab}
           />
 

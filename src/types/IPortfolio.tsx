@@ -6,6 +6,6 @@ export default interface IPortfolio {
   webURL?: string;
   gif: string;
   image: string;
-  platform?: 'web' | 'mobile' | 'chrome' | 'desktop' | 'other';
+  platform?: 'web' | 'mobile' | 'chrome' | 'desktop' | 'wordpress' | 'other';
   openTab?: string;
 }
