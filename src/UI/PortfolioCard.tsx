@@ -12,7 +12,7 @@ export default function PortfolioCard(props: IPortfolio) {
           githubURL={props.githubURL}
           webURL={props.webURL}
         />
-        <div className='flex-grow sm:text-left text-center mt-6 sm:mt-0'>
+        <div className='flex-grow sm:text-left mt-6 sm:mt-0'>
           <div className='float-right'>
             {props.githubURL && (
               <a
