@@ -3,8 +3,8 @@
   "portfolio": [
     {
       "name": "GitHub User Finder",
-      "desc": "React app to search Github user profiles using the github api",
-      "tech": "React.js, Node.js, Express.js, MongoDB",
+      "desc": "🔎 React app to search Github user profiles using the github api 🔎",
+      "tech": "React, Node, Express, MongoDB",
       "githubURL": "https://github.com/NyashaNziramasanga/GitHub-User-Finder",
       "webURL": "https://github-user-finder-web.netlify.com/",
       "gif": "../assets/images/portfolio/github-user-profile.gif",
@@ -13,8 +13,8 @@
     },
     {
       "name": "Tax Calculator",
-      "desc": "Income tax calculator react app",
-      "tech": "React.js, Recoil, Sass, Tailwindcss",
+      "desc": "🧾 Income tax calculator react app 💵",
+      "tech": "React, Recoil, Sass, Tailwindcss",
       "githubURL": "https://github.com/NyashaNziramasanga/tax-calculator",
       "webURL": "https://tax-calculator.netlify.app/",
       "gif": "../assets/images/portfolio/tax-calculator.gif",
@@ -23,13 +23,93 @@
     },
     {
       "name": "Online Resume v2",
-      "desc": "Version 2 of my online resume",
-      "tech": "React.js, Sass",
+      "desc": "📝 Version 2 of my online resume 📝",
+      "tech": "React, Sass",
       "githubURL": "https://github.com/NyashaNziramasanga/online-resume-v2",
       "webURL": "https://nyasha-nziramasanga-v2.netlify.app/",
       "gif": "../assets/images/portfolio/online-resume-v2.gif",
       "image": "../assets/images/portfolio/online-resume-v2.png",
       "platform": "web"
+    },
+    {
+      "name": "React Recoil Counter",
+      "desc": "⛓️ Recoil state management with React JS counter example ⛓️",
+      "tech": "React, Recoil",
+      "githubURL": "https://github.com/NyashaNziramasanga/react-recoil-counter-example",
+      "webURL": "https://react-recoil-counter-example.vercel.app/",
+      "gif": "",
+      "image": "",
+      "platform": "web"
+    },
+    {
+      "name": "React Responsive Animated Navbar",
+      "desc": "👾 React Responsive Animated CSS Navbar 🚀",
+      "tech": "React, CSS",
+      "githubURL": "https://github.com/NyashaNziramasanga/react-responsive-animated-navbar",
+      "webURL": "https://react-responsive-animated-navbar.vercel.app/",
+      "gif": "",
+      "image": "",
+      "platform": "web"
+    },
+    {
+      "name": "Platform Hub",
+      "desc": "Sass platform for user management and integrations to gsuite, upvise and more",
+      "tech": "React, Node, Express, MongoDB",
+      "githubURL": "",
+      "webURL": "https://platformhub.com.au/home/",
+      "gif": "",
+      "image": "",
+      "platform": "web"
+    },
+    {
+      "name": "Monash Photography Club (MPC)",
+      "desc": "Official MPC site for Monash University Photography Club",
+      "tech": "WordPress",
+      "githubURL": "",
+      "webURL": "https://www.monashphotographyclub.com/",
+      "gif": "",
+      "image": "",
+      "platform": "wordpress"
+    },
+    {
+      "name": "Platformers",
+      "desc": "Company cite for Platformers for advertising software services",
+      "tech": "WordPress",
+      "githubURL": "",
+      "webURL": "https://platformers.com.au/",
+      "gif": "",
+      "image": "",
+      "platform": "wordpress"
+    },
+    {
+      "name": "Sans Paper",
+      "desc": "Website advertising Sans Paper Mobile App",
+      "tech": "WordPress",
+      "githubURL": "",
+      "webURL": "http://sanspaper.com.au/",
+      "gif": "",
+      "image": "",
+      "platform": "wordpress"
+    },
+    {
+      "name": "Nash launcher",
+      "desc": "🔗 Chrome extension with quick links to social profiles 🔗",
+      "tech": "TypeScript, React, Sass, Shell",
+      "githubURL": "https://github.com/NyashaNziramasanga/nash-launcher",
+      "webURL": "",
+      "gif": "",
+      "image": "",
+      "platform": "chrome"
+    },
+    {
+      "name": "Electron Screen Recorder",
+      "desc": "🖥️ Screen recording app built with electron 📹",
+      "tech": "Electron, JavaScript, HTML, CSS",
+      "githubURL": "https://github.com/NyashaNziramasanga/electron-screen-recorder",
+      "webURL": "",
+      "gif": "",
+      "image": "",
+      "platform": "desktop"
     }
   ]
 }
