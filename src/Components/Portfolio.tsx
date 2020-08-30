@@ -3,7 +3,7 @@ import lowerWave from '../assets/icons/background/lower-wave-2.svg';
 import upperWave from '../assets/icons/background/upper-wave-2.svg';
 import Heading from '../UI/Heading';
 import PortfolioCard from '../UI/PortfolioCard';
-import Tablist from '../UI/Tablist';
+import Tab from '../UI/Tab';
 import GithubUserFinderGif from '../assets/images/portfolio/github-user-profile.gif';
 import GithubUserFinderPng from '../assets/images/portfolio/github-user-profile.png';
 import TaxCalculatorGif from '../assets/images/portfolio/tax-calculator.gif';
@@ -34,35 +34,7 @@ export default function Portfolio() {
         <Heading h1={'PORTFOLIO'} h2={data.heading} animation={'fade-up'} />
 
         <div className='container px-5 py-12 mx-auto' data-aos='fade-in'>
-          <div className='flex items-center justify-center w-full py-10'>
-            <ul className='flex'>
-              <Tablist
-                setOpenTab={setOpenTab}
-                openTab={openTab}
-                platform={'web'}
-              />
-              <Tablist
-                setOpenTab={setOpenTab}
-                openTab={openTab}
-                platform={'wordpress'}
-              />
-              <Tablist
-                setOpenTab={setOpenTab}
-                openTab={openTab}
-                platform={'mobile'}
-              />
-              <Tablist
-                setOpenTab={setOpenTab}
-                openTab={openTab}
-                platform={'chrome'}
-              />
-              <Tablist
-                setOpenTab={setOpenTab}
-                openTab={openTab}
-                platform={'desktop'}
-              />
-            </ul>
-          </div>
+          <Tab openTab={openTab} setOpenTab={setOpenTab} />
 
           <PortfolioCard
             name={' React App to search Github user profiles'}
