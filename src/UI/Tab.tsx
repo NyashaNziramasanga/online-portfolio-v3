@@ -19,11 +19,6 @@ export default function Tab(props: any) {
           <Tablist
             setOpenTab={props.setOpenTab}
             openTab={props.openTab}
-            platform={'mobile'}
-          />
-          <Tablist
-            setOpenTab={props.setOpenTab}
-            openTab={props.openTab}
             platform={'chrome'}
           />
           <Tablist

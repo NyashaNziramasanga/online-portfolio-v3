@@ -6,7 +6,7 @@ export default function Tablist(props: ITablist) {
     props.platform.charAt(0).toUpperCase() + props.platform.slice(1);
   return (
     <div>
-      <li className='mr-3'>
+      <li className='mr-2'>
         <a
           className={`inline-block border rounded py-1 px-3 text-white ${
             props.openTab === props.platform

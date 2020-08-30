@@ -35,7 +35,6 @@ export default function Portfolio() {
 
         <div className='container px-5 py-12 mx-auto' data-aos='fade-in'>
           <Tab openTab={openTab} setOpenTab={setOpenTab} />
-
           <PortfolioCard
             name={' React App to search Github user profiles'}
             desc={
