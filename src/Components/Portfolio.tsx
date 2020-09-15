@@ -4,18 +4,13 @@ import upperWave from '../assets/icons/background/upper-wave-2.svg';
 import Heading from '../UI/Heading';
 import PortfolioCard from '../UI/PortfolioCard';
 import Tab from '../UI/Tab';
-import GithubUserFinderGif from '../assets/images/portfolio/github-user-profile.gif';
 import GithubUserFinderPng from '../assets/images/portfolio/github-user-profile.png';
-import TaxCalculatorGif from '../assets/images/portfolio/tax-calculator.gif';
 import TaxCalculatorPng from '../assets/images/portfolio/tax-calculator.png';
 import OnlineResumePng from '../assets/images/portfolio/online-resume-v2.png';
-import OnlineResumeGif from '../assets/images/portfolio/online-resume-v2.gif';
 import CounterExampleGif from '../assets/images/portfolio/counter-example.gif';
 import CounterExamplePng from '../assets/images/portfolio/counter-example.png';
 import responsiveAnimatedNavbarPng from '../assets/images/portfolio/responsive-animated-navbar.png';
-import responsiveAnimatedNavbarGif from '../assets/images/portfolio/responsive-animated-navbar.gif';
 import nashLauncherPng from '../assets/images/portfolio/nash-launcher.png';
-import nashLauncherGif from '../assets/images/portfolio/nash-launcher.gif';
 import screenyPng from '../assets/images/portfolio/screeny.png';
 import mpcPng from '../assets/images/portfolio/mpc.png';
 import platformersPng from '../assets/images/portfolio/platformers.png';
@@ -45,7 +40,7 @@ export default function Portfolio() {
               'https://github.com/NyashaNziramasanga/GitHub-User-Finder'
             }
             webURL={'https://github-user-finder-web.netlify.com/'}
-            gif={GithubUserFinderGif}
+            gif={''}
             image={GithubUserFinderPng}
             platform={'web'}
             openTab={openTab}
@@ -57,7 +52,7 @@ export default function Portfolio() {
             tech={'React, Recoil, Sass, Tailwindcss'}
             githubURL={'https://github.com/NyashaNziramasanga/tax-calculator'}
             webURL={'https://tax-calculator.netlify.app/'}
-            gif={TaxCalculatorGif}
+            gif={''}
             image={TaxCalculatorPng}
             platform={'web'}
             openTab={openTab}
@@ -69,7 +64,7 @@ export default function Portfolio() {
             tech={'React, Sass'}
             webURL={'https://nyasha-nziramasanga-v2.netlify.app/'}
             githubURL={'https://github.com/NyashaNziramasanga/online-resume-v2'}
-            gif={OnlineResumeGif}
+            gif={''}
             image={OnlineResumePng}
             platform={'web'}
             openTab={openTab}
@@ -97,7 +92,7 @@ export default function Portfolio() {
             githubURL={
               'https://github.com/NyashaNziramasanga/react-responsive-animated-navbar'
             }
-            gif={responsiveAnimatedNavbarGif}
+            gif={''}
             image={responsiveAnimatedNavbarPng}
             platform={'web'}
             openTab={openTab}
@@ -108,7 +103,7 @@ export default function Portfolio() {
             desc={'🔗 Chrome extension with quick links to social profiles  🔗'}
             tech={'TypeScript, React, Sass, Shell'}
             githubURL={'https://github.com/NyashaNziramasanga/nash-launcher'}
-            gif={nashLauncherGif}
+            gif={''}
             image={nashLauncherPng}
             platform={'chrome'}
             openTab={openTab}
