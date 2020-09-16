@@ -41,6 +41,6 @@
   },
   "devDependencies": {
     "@types/aos": "^3.0.3",
-    "@types/react-scroll": "^1.5.5"
+    "@types/react-scroll": "^1.8.0"
   }
 }
