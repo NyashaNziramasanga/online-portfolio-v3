@@ -49,7 +49,7 @@ export default function Portfolio() {
           <PortfolioCard
             name={'Tax Calculator'}
             desc={'🧾 Income tax calculator react app 💵'}
-            tech={'React, Recoil, Sass, Tailwindcss'}
+            tech={'React, Recoil,SCSS, Tailwindcss'}
             githubURL={'https://github.com/NyashaNziramasanga/tax-calculator'}
             webURL={'https://tax-calculator.netlify.app/'}
             gif={''}
@@ -61,7 +61,7 @@ export default function Portfolio() {
           <PortfolioCard
             name={'Online Resume v2'}
             desc={'📝 Version 2 of my online resume 📝'}
-            tech={'React, Sass'}
+            tech={'React, SCSS'}
             webURL={'https://nyasha-nziramasanga-v2.netlify.app/'}
             githubURL={'https://github.com/NyashaNziramasanga/online-resume-v2'}
             gif={''}
@@ -101,7 +101,7 @@ export default function Portfolio() {
           <PortfolioCard
             name={'Nash launcher'}
             desc={'🔗 Chrome extension with quick links to social profiles  🔗'}
-            tech={'TypeScript, React, Sass, Shell'}
+            tech={'TypeScript, React, SCSS, Shell'}
             githubURL={'https://github.com/NyashaNziramasanga/nash-launcher'}
             gif={''}
             image={nashLauncherPng}
@@ -149,7 +149,7 @@ export default function Portfolio() {
           <PortfolioCard
             name={'Platform Hub'}
             desc={
-              'Sass platform for user management and integrations to gsuite, upvise and more'
+              'SaaS platform for user management and integrations to gsuite, upvise and more'
             }
             tech={'React, Node, Express, MongoDB'}
             webURL={'https://platformhub.com.au/home/'}
