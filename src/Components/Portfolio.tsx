@@ -5,6 +5,7 @@ import Heading from '../UI/Heading';
 import PortfolioCard from '../UI/PortfolioCard';
 import Tab from '../UI/Tab';
 import GithubUserFinderPng from '../assets/images/portfolio/github-user-profile.png';
+import LendMarketPng from '../assets/images/portfolio/lendMarket.png';
 import TaxCalculatorPng from '../assets/images/portfolio/tax-calculator.png';
 import OnlineResumePng from '../assets/images/portfolio/online-resume-v2.png';
 import CounterExampleGif from '../assets/images/portfolio/counter-example.gif';
@@ -42,6 +43,22 @@ export default function Portfolio() {
             webURL={'https://github-user-finder-web.netlify.com/'}
             gif={''}
             image={GithubUserFinderPng}
+            platform={'web'}
+            openTab={openTab}
+          />
+
+          <PortfolioCard
+            name={' Lendmarket'}
+            desc={
+              '💵 redesign of marketlend.com.au 🏦'
+            }
+            tech={'NextJS, Ant Design Pro, React, TypeScript'}
+            githubURL={
+              'https://github.com/NyashaNziramasanga/lendmarket'
+            }
+            webURL={'https://lendmarket.vercel.app/dashboard'}
+            gif={''}
+            image={LendMarketPng}
             platform={'web'}
             openTab={openTab}
           />
