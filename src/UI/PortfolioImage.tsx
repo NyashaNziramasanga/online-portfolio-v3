@@ -18,7 +18,7 @@ export default function PortfolioImage(props: IPortfolio) {
           />
         ) : (
           <img
-            className='bg-white absolute sm:w-64 sm:h-40'
+            className='bg-white absolute sm:w-64 sm:h-40 rounded border hover:border-blue-700 transition ease-in duration-300'
             src={props.image}
             alt={props.image}
           />
