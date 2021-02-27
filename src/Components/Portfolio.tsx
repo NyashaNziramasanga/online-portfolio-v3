@@ -17,6 +17,7 @@ import mpcPng from '../assets/images/portfolio/mpc.png';
 import platformersPng from '../assets/images/portfolio/platformers.png';
 import platformHubPng from '../assets/images/portfolio/platformhub.png';
 import sanspaperPng from '../assets/images/portfolio/sanspaper.png';
+import mediriteJpg from '../assets/images/portfolio/medirite.jpg';
 import Link from '../UI/Link';
 import data from '../data/portfolio.json';
 
@@ -31,6 +32,21 @@ export default function Portfolio() {
 
         <div className='container px-5 py-12 mx-auto' data-aos='fade-in'>
           <Tab openTab={openTab} setOpenTab={setOpenTab} />
+
+          <PortfolioCard
+            name={'themedirite.co.uk'}
+            desc={
+              '🏥 Website for medirite a UK based supported living care home 🏥'
+            }
+            tech={'Next.js, Sanity.io , Netlify'}
+            githubURL={'https://github.com/medirite/themedirite'}
+            webURL={'https://themedirite.co.uk/'}
+            gif={''}
+            image={mediriteJpg}
+            platform={'web'}
+            openTab={openTab}
+          />
+
           <PortfolioCard
             name={' React App to search Github user profiles'}
             desc={
@@ -49,13 +65,9 @@ export default function Portfolio() {
 
           <PortfolioCard
             name={' Lendmarket'}
-            desc={
-              '💵 redesign of marketlend.com.au 🏦'
-            }
+            desc={'💵 redesign of marketlend.com.au 🏦'}
             tech={'NextJS, Ant Design Pro, React, TypeScript'}
-            githubURL={
-              'https://github.com/NyashaNziramasanga/lendmarket'
-            }
+            githubURL={'https://github.com/NyashaNziramasanga/lendmarket'}
             webURL={'https://lendmarket.vercel.app/dashboard'}
             gif={''}
             image={LendMarketPng}
