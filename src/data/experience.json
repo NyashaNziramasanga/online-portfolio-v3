@@ -2,6 +2,14 @@
   "heading": "Places I've worked at 🏢",
   "experience": [
     {
+      "date": "Mar 2021 - Current",
+      "company": "Good Dog Design",
+      "url": "https://gooddogdesign.com/",
+      "role": "Contract Software Engineer",
+      "description": "As a contract Software Engineer, at Good Dog Design a design and development shop, I worked on mobile and web apps for local and offshore client projects.",
+      "stack": "TypeScript, JavaScript, React, React Native, GraphQL, HTML & CSS"
+    },
+    {
       "date": "Feb 2019 - Feb 2020",
       "company": "Platformers",
       "url": "https://platformhub.com.au/home/",
