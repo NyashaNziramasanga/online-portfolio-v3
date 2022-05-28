@@ -4,7 +4,7 @@
   "aboutP2": "I am experienced in developing and designing products for the web. I'm currently studying a Masters of Computer Science at Flinders University, Adelaide, Australia which I will complete in Dec 2021.",
   "skills": {
     "programingLanguages": ["TypeScript", "JavaScript", "Python"],
-    "libraries": ["React", "NodeJS", "ExpressJS", "MongoDB", "Express", "NextJS"],
+    "libraries": ["React", "React Native", "NodeJS", "ExpressJS", "MongoDB", "Express", "NextJS"],
     "tools": ["AWS", "Microsoft Azure", "GCP", "Git", "Postman", "Adobe Creative Cloud", "WordPress"]
   }
 }

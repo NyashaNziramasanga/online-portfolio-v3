@@ -2,7 +2,15 @@
   "heading": "Places I've worked at 🏢",
   "experience": [
     {
-      "date": "Mar 2021 - Current",
+      "date": "Jan 2022 - Current",
+      "company": "Linktree",
+      "url": "https://linktr.ee/",
+      "role": "Software Engineer (React Native)",
+      "description": "Linktree is the market-leading linking platform that was the first of its kind, creating an entirely new category in tech. I am in the mobile app team working on iOS and Android platforms.",
+      "stack": "React Native, TypeScript, JavaScript, Zustand, GraphQL etc"
+    },
+    {
+      "date": "Mar 2021 -  Dec 2021",
       "company": "Good Dog Design",
       "url": "https://gooddogdesign.com/",
       "role": "Contract Software Engineer",
