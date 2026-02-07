@@ -9,6 +9,7 @@ import Education from "./Components/Education";
 import Footer from "./Components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   useEffect(() => {
@@ -23,6 +24,7 @@ export default function App() {
       <Portfolio />
       <Education />
       <Footer />
+      <Analytics />
     </div>
   );
 }
