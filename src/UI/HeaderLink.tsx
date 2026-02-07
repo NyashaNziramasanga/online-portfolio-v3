@@ -1,21 +1,19 @@
-import React from 'react';
-import { Link } from 'react-scroll';
-import IHeaderLink from '../types/IHeaderLink';
+import React from "react";
+import { Link } from "react-scroll";
+import IHeaderLink from "../types/IHeaderLink";
 
-export default function HeaderLink(props: IHeaderLink) {
+export default function HeaderLink({ to, name }: IHeaderLink) {
   return (
-    <div>
-      <Link
-        activeClass='active'
-        className='mr-3 hover:text-white nav-link'
-        to={props.to}
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-      >
-        {props.name}
-      </Link>
-    </div>
+    <Link
+      activeClass="active"
+      className="mr-3 hover:text-white nav-link"
+      to={to}
+      spy
+      smooth
+      offset={-70}
+      duration={500}
+    >
+      {name}
+    </Link>
   );
 }
