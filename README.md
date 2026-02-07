@@ -27,26 +27,28 @@
 
 ```bash
 # First time install and start script
-npm i && npm start
+yarn && yarn start
 ```
 
 ## ⚙️ Scripts
 
 ```bash
-$ npm install
+$ yarn
+# or
+$ yarn install
 
 # Start dev server on http://localhost:3000
-$ npm start
+$ yarn start
 # or
-$ npm run dev
+$ yarn dev
 
-$ npm run build
+$ yarn build
 
-$ npm test          # Vitest watch mode
-$ npm run test:run  # Vitest single run
-$ npm run test:ui   # Vitest UI
+$ yarn test          # Vitest watch mode
+$ yarn test:run      # Vitest single run
+$ yarn test:ui       # Vitest UI
 
-$ npm run preview   # Preview production build
+$ yarn preview       # Preview production build
 ```
 
 ## ✔️ Deployment

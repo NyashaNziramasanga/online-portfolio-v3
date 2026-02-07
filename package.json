@@ -3,6 +3,7 @@
   "version": "3.1.0",
   "private": true,
   "type": "module",
+  "packageManager": "yarn@1.22.22",
   "scripts": {
     "dev": "node -r ./scripts/crypto-polyfill.cjs ./node_modules/vite/bin/vite",
     "start": "node -r ./scripts/crypto-polyfill.cjs ./node_modules/vite/bin/vite",
