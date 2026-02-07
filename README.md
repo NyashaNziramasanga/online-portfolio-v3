@@ -14,7 +14,7 @@
 
 [![time tracker](https://wakatime.com/badge/github/NyashaNziramasanga/online-portfolio-v3.svg)](https://wakatime.com/badge/github/NyashaNziramasanga/online-portfolio-v3)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c54bf0ca-8555-428c-897e-a49189ecbca7/deploy-status)](https://app.netlify.com/sites/dev-nash/deploys)
-[![Twitter Follow](https://img.shields.io/twitter/follow/NyashaNziboi.svg?style=social)](https://twitter.com/NyashaNziboi) 
+[![Twitter Follow](https://img.shields.io/twitter/follow/NyashaNziboi.svg?style=social)](https://twitter.com/NyashaNziboi)
 ![Website](https://img.shields.io/website?down_color=red&url=https%3A%2F%2Fwww.nyashanziramasanga.com%2F)
 
 ![online-portfolio](src/assets/images/online-portfolio.gif)
@@ -22,7 +22,8 @@
 ## 🏁 Getting Started
 
 1. Clone repo
-2. Run:
+2. Use **Node 22** (see [.nvmrc](.nvmrc)): `nvm use` or `fnm use`
+3. Run:
 
 ```bash
 # First time install and start script
@@ -34,14 +35,18 @@ npm i && npm start
 ```bash
 $ npm install
 
-# Start server on http://localhost:3000
+# Start dev server on http://localhost:3000
 $ npm start
+# or
+$ npm run dev
 
-$ npm build
+$ npm run build
 
-$ npm test
+$ npm test          # Vitest watch mode
+$ npm run test:run  # Vitest single run
+$ npm run test:ui   # Vitest UI
 
-$ npm eject
+$ npm run preview   # Preview production build
 ```
 
 ## ✔️ Deployment
@@ -51,9 +56,10 @@ Deployed on netlify from master branch
 ## 🏗️ Built With
 
 - [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/) 19
 - [Tailwind-css](https://tailwindcss.com/)
 - [Tailblocks](https://mertjf.github.io/tailblocks/)
-- [React JS](https://reactjs.org/)
 - [Sass](https://sass-lang.com/)
 - [Netlify](https://www.netlify.com/)
 - Icons from [fontawesome](https://fontawesome.com/)
