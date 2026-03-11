@@ -7,9 +7,6 @@
     <h1> 
     🗂️  Online Portfolio v3 🔥
     </h1>
-    <p>
-      <i>Personal portfolio on <a href="https://www.nyashanziramasanga.com/">nyashanziramasanga.com</a></i>
-    </p>
 </div>
 
 [![time tracker](https://wakatime.com/badge/github/NyashaNziramasanga/online-portfolio-v3.svg)](https://wakatime.com/badge/github/NyashaNziramasanga/online-portfolio-v3)
